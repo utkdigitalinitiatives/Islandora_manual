@@ -1,4 +1,4 @@
 # Islandora-manual
 
-How to install, use, test and break Islandora. 
+How to install, use, test and break Islandora & Islandora Modules
 
