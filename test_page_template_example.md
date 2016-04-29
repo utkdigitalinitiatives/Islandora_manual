@@ -31,11 +31,9 @@ test_date/
 ```
 
 ---
-#### Ingest test files
-Ingest with GUI & Batch
 
----
 ## Test for Success
+
 #### GUI:
 Administration >> Islandora >> Islandora Utility Modules >> Checksum
 
@@ -44,12 +42,11 @@ Administration >> Islandora >> Islandora Utility Modules >> Checksum
 * Datastreams to Checksum = MODS,OBJ
 * Save configuration
 
-Possible ways to test & Step by Step to replicate test
-  What is the expected output
-    * Success
-    * Failure
+**Ingest test files**
+Ingest with GUI & Batch
 
-  How verify test was successful
+**Verify Success**
+Administration >> Islandora >> Islandora Utility Modules >> Checksum
 
 #### Drush:
 ```bash
