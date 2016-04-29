@@ -8,4 +8,5 @@
 * [Batch Ingest](batch_ingest.md)
 * [Islandora Modules](islandora_modules.md)
    * [Islandora Checksum](modules/islandora_checksum.md)
+       * Checksum / Ingest Creation
 
