@@ -51,7 +51,7 @@ $ drush --root=/var/www/drupal --user=admin --uri=http://localhost --namespace=t
 $ next command....
 ```
 
-**Verify Success**
+**Verify Success**:<br/>
 Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
 | Field |VALUE|
@@ -68,6 +68,20 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
 ## Make test fail
 
+#### Files to test with
+```
+test_date/
+  basic_image_corrupt.jpg
+  large_image_Mismatch_Mods.zip
+  newspaper_invalid_naming.zip
+  basic_with_password_protected.pdf
+  audio.mp4
+  video.mp3
+  books_missing_mods.zip
+```
+
+**Ingest test files**
+[Ingest with GUI](ingest_procedures.md) & [batch](batch_ingest.md)
 
 ___
 ### Where to find more information
