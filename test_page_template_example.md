@@ -32,7 +32,7 @@ test_date/
 
 ---
 
-## Test for Success
+## Test for Success:
 
 #### GUI:
 Administration >> Islandora >> Islandora Utility Modules >> Checksum
