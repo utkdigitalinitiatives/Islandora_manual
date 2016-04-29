@@ -5,15 +5,16 @@
 #### Test if checksum datastream is create during the ingestion process for new objects.
 
 #### Test basic image, large image, newspaper, pdf, audio, video, and books with GUI and drush.
-Test files:
-basic_images.zip
-large image.zip
-newspaper.zip
-pdf.zip
-audio.zip
-video.zip
-books.zip
-
+```
+test_date/
+  basic_images.zip
+  large_image.zip
+  newspaper.zip
+  basic_with_OCR.pdf
+  audio.mp3
+  video.mp4
+  books.zip
+```
 
 #### Use a stock Islandora Vagrant setup without custom vagrant script
 
