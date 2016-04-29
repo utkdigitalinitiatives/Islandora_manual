@@ -54,6 +54,7 @@ $ next command....
 **Verify Success**:<br/>
 Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
+
 | Field |VALUE|
 | --------------| ---------------------------------------- |
 | ... | ... |
@@ -65,6 +66,7 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 | messageDigestAlgorithm | SHA-256 
 | messageDigest | 75821241902ef18291b67728b2f7fc65ce52d52a |
 | ... | ... |
+
 
 ## Make test fail
 
