@@ -45,6 +45,12 @@ Administration >> Islandora >> Islandora Utility Modules >> Checksum
 **Ingest test files**
 [Ingest with GUI](ingest_procedures.md) & [batch](batch_ingest.md)
 
+#### Drush:
+```bash
+$ drush --root=/var/www/drupal --user=admin --uri=http://localhost --namespace=testing --content_models=islandora:sp_basic_image_cmodel --parent=testing:1 --type:directory ==target=/vagrant/testdata/largeimages/
+$ next command....
+```
+
 **Verify Success**
 Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
@@ -60,11 +66,6 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 | messageDigest | 75821241902ef18291b67728b2f7fc65ce52d52a |
 | ... | ... |
 
-#### Drush:
-```bash
-$ drush --root=/var/www/drupal --user=admin --uri=http://localhost --namespace=testing --content_models=islandora:sp_basic_image_cmodel --parent=testing:1 --type:directory ==target=/vagrant/testdata/largeimages/
-$ next command....
-```
 ## Make test fail
 
 
