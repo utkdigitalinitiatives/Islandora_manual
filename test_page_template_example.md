@@ -1,10 +1,24 @@
 # Islandora Checksum / Ingest Creation
 
-(Title of Module Process) / Test Name
+---
 
 #### Test if checksum datastream is create during the ingestion process for new objects.
 
-#### Test basic image, large image, newspaper, pdf, audio, video, and books with GUI and drush.
+---
+
+#### Test basic image, large image, newspaper, pdf, audio, video, and books
+
+---
+
+#### Use GUI and Drush
+
+---
+
+#### Use a stock Islandora Vagrant setup without custom vagrant script
+
+---
+
+#### Files to test with
 ```
 test_date/
   basic_images.zip
@@ -16,9 +30,19 @@ test_date/
   books.zip
 ```
 
-#### Use a stock Islandora Vagrant setup without custom vagrant script
+---
+#### Ingest test files
+Proceedure here....
 
-Demo files needed to test module/process
+---
+
+#### GUI
+Administration >> Islandora >> Islandora Utility Modules >> Checksum
+
+* Check Enable Checksum checkbox
+* Checksume type = SHA-512
+* Datastreams to Checksum = MODS,OBJ
+* Save configuration
 
 Possible ways to test & Step by Step to replicate test
   What is the expected output
