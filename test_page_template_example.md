@@ -43,7 +43,7 @@ Administration >> Islandora >> Islandora Utility Modules >> Checksum
 * Save configuration
 
 **Ingest test files**
-Ingest with GUI & Batch
+[Ingest with GUI](ingest_procedures.md) & [batch](batch_ingest.md)
 
 **Verify Success**
 Administration >> Islandora >> Islandora Utility Modules >> Checksum
