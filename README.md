@@ -9,5 +9,5 @@ How to [install](install_islandora.md), use, test and break Islandora & Islandor
 * [Batch Ingest](batch_ingest.md)
 * [Islandora Modules](islandora_modules.md)
    * [Islandora Checksum](modules/islandora_checksum.md)
-       * [Checksum / Ingest Creation](modules/tests/checksum__ingest_creation.md)
+       * [Checksum / Ingest Creation](modules/tests/checksum__ingest_creation.md) <-- Check this one out
 
