@@ -31,9 +31,8 @@ test_date/
 ```
 
 ---
-
 #### Ingest test files
-Proceedure here....
+Ingest with GUI & Batch
 
 ---
 ## Test for Success
