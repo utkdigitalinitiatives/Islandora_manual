@@ -1,4 +1,4 @@
 # Summary
 
-* Install Islandora
+* [Install Islandora](install_islandora.md)
 
