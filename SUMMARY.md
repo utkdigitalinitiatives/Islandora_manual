@@ -7,4 +7,5 @@
 * [Ingest Procedures](ingest_procedures.md)
 * [Batch Ingest](batch_ingest.md)
 * [Islandora Modules](islandora_modules.md)
+   * Islandora Checksum
 
