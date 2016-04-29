@@ -36,8 +36,8 @@ test_date/
 Proceedure here....
 
 ---
-
-#### GUI
+## Test for Success
+#### GUI:
 Administration >> Islandora >> Islandora Utility Modules >> Checksum
 
 * Check Enable Checksum checkbox
@@ -52,6 +52,16 @@ Possible ways to test & Step by Step to replicate test
 
   How verify test was successful
 
-Step by Step to break the test
+#### Drush:
+```bash
+$ drush --root=/var/www/drupal --user=admin --uri=http://localhost --namespace=testing --content_models=islandora:sp_basic_image_cmodel --parent=testing:1 --type:directory ==target=/vagrant/testdata/largeimages/
+$ next command....
+```
+## Make test fail
 
-Where to find more information
+
+___
+### Where to find more information
+### Report a bug
+### Update Readme
+### Community Envolvement / Interest Groups
