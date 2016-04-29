@@ -55,7 +55,7 @@ $ next command....
 Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
 | Field |VALUE|
-| -- | -- |
+| --------------| ---------------------------------------- |
 | ... | ... |
 | objectidentifierValue | MODS.0 |
 | messageDigestAlgorithm | SHA-256 |
