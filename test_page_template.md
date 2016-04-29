@@ -8,6 +8,10 @@
 *Optional Notes: *<br/>
 **Horizontal line **<br/>
 
+\#### Technology to use GUI or Drush<br/>
+*Optional Notes: *<br/>
+**Horizontal line **<br/>
+
 \#### How to setup environment for testing <br/>
 *Optional Notes: *<br/>
 **Horizontal line **<br/>
