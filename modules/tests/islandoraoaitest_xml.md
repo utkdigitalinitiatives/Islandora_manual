@@ -10,10 +10,8 @@ Optional Notes: *
 ### Technology to use GUI or Drush
 Optional Notes:
 
-create a namespace
-
-use drush to ingest the zip file
-
+create a namespace, use drush to ingest the zip file
+https://wiki.lib.utk.edu/display/DI/Ingesting
 
 
 #### What is the needed test environment
