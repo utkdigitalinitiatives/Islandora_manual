@@ -7,7 +7,7 @@
 ### Technology to use GUI or Drush
     Drush 6.* or the GUI
 
-create a namespace:
+####create a namespace:
 
 1. create a test2 collection folder
 2. give it the name "test2" as a label
@@ -17,10 +17,9 @@ create a namespace:
 6. put the collection namespace beside the content model selection
 7. save the object
 
-Ingesting the test files:
+####Ingesting the test files:
 
-use drush to ingest the zip file
-https://wiki.lib.utk.edu/display/DI/Ingesting
+use drush to ingest the zip file (reference: https://wiki.lib.utk.edu/display/DI/Ingesting)
 
 drush -v -u 1 --uri=http://localhost ibsp --content_models=islandora:sp_large_image_cmodel --type=zip --parent=islandora:test2 --namespace=test2 --target=/home/vagrant/test-files/test-data.zip
 
