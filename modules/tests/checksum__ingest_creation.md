@@ -1,22 +1,18 @@
 # Islandora Checksum / Ingest Creation
 
----
+
 
 #### Test if checksum datastream is create during the ingestion process for new objects.
 
----
 
 #### Test basic image, large image, newspaper, pdf, audio, video, and books
 
----
 
 #### Use GUI and Drush
 
----
 
 #### Use a stock Islandora Vagrant setup without custom vagrant script
 
----
 
 #### Files to test with
 ```
