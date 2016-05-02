@@ -1,2 +1,0 @@
-# Islandora OAI / Test XML
-
