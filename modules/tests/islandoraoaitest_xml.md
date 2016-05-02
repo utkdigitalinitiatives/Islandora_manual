@@ -9,23 +9,29 @@ The output should be tested with and without this field set.
 Optional Notes: *
 
 ### Technology to use GUI or Drush
-Optional Notes: use a web browser to see the OAI provider output
+Optional Notes:
+create a namespace
+use drush to ingest the zip file
+use a web browser to see the OAI provider output
 
 #### What is the needed test environment
-Optional Notes: *
+Optional Notes:  
 
 #### Files needed for testing
 `<br/> *folder\files.zip <br/>* \`
-Optional Notes: *
-*Horizontal line **
+
 
 #### Possible ways to test & Step by Step to replicate test
+
 What is the expected output
+
 Success
+
 Failure
+
 How verify test was successful
+
 Optional Notes:
-Horizontal line
 
 #### Make test fail
 Optional Notes: *
