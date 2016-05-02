@@ -32,8 +32,11 @@ drush -v -u 1 --uri=http://localhost islandora_batch_ingest
 
 
 #### Files needed for testing
-`<br/> *test_files\test-data.zip <br/>* \`
 
+make a directory:  /home/vagrant/test_files
+copy or download the test sample files there
+
+test-data.zip
 
 #### Possible ways to test & Step by Step to replicate test
 
