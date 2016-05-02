@@ -23,6 +23,9 @@ https://wiki.lib.utk.edu/display/DI/Ingesting
 
 drush -v -u 1 --uri=http://localhost ibsp --content_models=islandora:sp_large_image_cmodel --type=zip --parent=islandora:test2 --namespace=test2 --target=/home/vagrant/test-files/test-data.zip
 
+and then the second command:
+
+drush -v -u 1 --uri=http://localhost islandora_batch_ingest
 #### What is the needed test environment
  a new islandora_vagrant instance
 
