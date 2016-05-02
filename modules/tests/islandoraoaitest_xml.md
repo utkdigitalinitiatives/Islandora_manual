@@ -18,7 +18,8 @@ https://wiki.lib.utk.edu/display/DI/Ingesting
 Optional Notes:  
 
 #### Files needed for testing
-`<br/> *test-data\test-data.zip <br/>* \`
+`<br/> *test_files
+\test-data.zip <br/>* \`
 
 
 #### Possible ways to test & Step by Step to replicate test
