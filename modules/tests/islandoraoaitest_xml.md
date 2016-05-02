@@ -8,13 +8,14 @@
     Drush 6.* or the GUI
 
 create a namespace:
-1.    create a test2 collection folder
-2.    give it the name "test2" as a label
-3.    fill in the parent namespace and the PID of the collection
-4.    uncheck the inherit properties checkbox
-5.    select the large image content model
-6.    put the collection namespace beside the content model selection
-7.    save the object
+
+1. create a test2 collection folder
+2. give it the name "test2" as a label
+3. fill in the parent namespace and the PID of the collection
+4. uncheck the inherit properties checkbox
+5. select the large image content model
+6. put the collection namespace beside the content model selection
+7. save the object
 
 Ingesting the test files:
 
