@@ -39,11 +39,15 @@ and then the second command:
 
     drush -v -u 1 --uri=http://localhost islandora_batch_ingest
 
+At this point you should have 6 basic images and metadata in the "test2" folder.
 
 #### Possible ways to test & Step by Step to replicate test
 
 the output can be found in a brower at: 
 http://localhost:8000/?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
+
+
+
 
 What is the expected output
 the oai-dc on different records will have different things to look for.
