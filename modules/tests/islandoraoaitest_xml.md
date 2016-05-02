@@ -33,7 +33,7 @@ test-data.zip
 
 use drush to ingest the zip file (reference: https://wiki.lib.utk.edu/display/DI/Ingesting)
 
-    drush -v -u 1 --uri=http://localhost ibsp --content_models=islandora:sp_large_image_cmodel --type=zip --parent=islandora:test2 --namespace=test2 --target=/home/vagrant/test-files/test-data.zip
+    drush -v -u 1 --uri=http://localhost ibsp --content_models=islandora:sp_basic_image --type=zip --parent=islandora:test2 --namespace=test2 --target=/home/vagrant/test-files/test-data.zip
 
 and then the second command:
 
