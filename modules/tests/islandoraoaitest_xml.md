@@ -91,20 +91,20 @@ the result should look like this on the first image.
     <dc:identifier.thumbnail>http://localhost:8000/islandora/object/test2%3A27/datastream/TN/view/Bear%20in%20Trash%20Can.jpg</dc:identifier.thumbnail><identifier>http://localhost:8000/islandora/object/test2%3A27</identifier></oai_dc:dc></metadata></record></GetRecord></OAI-PMH>
 
 
+( I don't know if the above DC is correct, it looks like there are too many identifiers, but if we are just testing for whether it adds the namespaces, this doesn't.)
 
+Now if you go back into the OAI set for the handler, and set the datastream ID to MODS, and set the first transformation to mods_to_dc_oai.xsl and do this again, you will see namespaces in the record.
 
+At this point, you can check the data stream in Fedora to see what was created there by the transform in the batch or importer module.
 
-
-What is the expected output
+(more later....)
 
 
 
 
 Success
-the oai_dc looks as expected
 
 Failure
-the oai_dc does not look as expected
 
 How verify test was successful
 ????
