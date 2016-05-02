@@ -5,7 +5,7 @@
 
 
 ### Technology to use GUI or Drush
-    Drush 6.*
+    Drush 6.* or the GUI
 
 create a namespace, use drush to ingest the zip file
 https://wiki.lib.utk.edu/display/DI/Ingesting
@@ -20,6 +20,9 @@ https://wiki.lib.utk.edu/display/DI/Ingesting
 
 
 #### Possible ways to test & Step by Step to replicate test
+
+the output can be found in a brower at 
+http://localhost:8000/?verb=GetRecord&metadataPrefix=oai_dc&identifier=your-namespace_PID
 
 What is the expected output
 the oai-dc on different records will have different things to look for.
