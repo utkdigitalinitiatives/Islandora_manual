@@ -18,7 +18,10 @@ Optional Notes: <br/>
 
 #### Files needed for testing<br/>
 ``` <br/>
-*folder\files.zip <br/>*
+* modules/
+  * tests/
+    * test_files/
+      * test_name_files.zip <br/>*
 ``` <br/>
 Optional Notes:<br/>
 <br/>
