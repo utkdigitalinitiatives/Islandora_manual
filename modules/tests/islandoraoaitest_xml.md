@@ -10,8 +10,11 @@ Optional Notes: *
 
 ### Technology to use GUI or Drush
 Optional Notes:
+
 create a namespace
+
 use drush to ingest the zip file
+
 use a web browser to see the OAI provider output
 
 #### What is the needed test environment
