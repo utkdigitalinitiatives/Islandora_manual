@@ -27,7 +27,8 @@ and then the second command:
 
 drush -v -u 1 --uri=http://localhost islandora_batch_ingest
 #### What is the needed test environment
- a new islandora_vagrant instance
+
+ a new islandora_vagrant instance, no new modules, just the standard modules from HEAD
 
 
 #### Files needed for testing
