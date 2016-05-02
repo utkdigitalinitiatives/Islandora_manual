@@ -61,11 +61,9 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  
  select nothing in the second one.
  
+ save your changes and go back to the test2 collection page.
  
  
- 
- 
-
 the output can be found in a brower at: 
 http://localhost:8000/?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
 
