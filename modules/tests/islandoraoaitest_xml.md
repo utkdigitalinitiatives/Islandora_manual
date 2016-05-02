@@ -43,6 +43,29 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
 
 #### Possible ways to test & Step by Step to replicate test
 
+ in the islandora admin pages, go to the oai setup,  use the standard values and click "configure" on the handler setup at the bottom of the screen.
+ 
+ Be sure the "insert link for thumbnail box is checked.
+ 
+ In the METADATA FORMAT section:
+ 
+ select "OAI_DC" in the select  pull-down.
+ 
+ check the box next to " Force include a link to the object within Islandora? ".
+ 
+ put "identifier" in the "Field" input text box.
+ 
+ in the transformations area, select "MODS" in the datastream id box.
+ 
+ in the first transformation select pull-down, select mods_to_dc_oai.xsl
+ 
+ select nothing in the second one.
+ 
+ 
+ 
+ 
+ 
+
 the output can be found in a brower at: 
 http://localhost:8000/?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
 
