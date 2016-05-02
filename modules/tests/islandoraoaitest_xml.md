@@ -55,9 +55,9 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  
  put "identifier" in the "Field" input text box.
  
- in the transformations area, select "MODS" in the datastream id box.
+ in the transformations area, select "DC" in the datastream id box.
  
- in the first transformation select pull-down, select mods_to_dc_oai.xsl
+ in the first transformation select pull-down, select no transformation
  
  select nothing in the second one.
  
@@ -65,13 +65,37 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  
  
 the output can be found in a brower at: 
-http://localhost:8000/?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
+http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
+
+do a view source on the page you are seeing.
+the result should look like this on the first image.
+
+     <?xml version="1.0" encoding="UTF-8"?>
+    <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2016-05-02T21:26:29Z</responseDate><request>http://localhost:8000/oai2</request><GetRecord><record><header><identifier>oai:drupal-site.org:test2_27</identifier><datestamp>2016-05-02T21:02:23Z</datestamp><setSpec>islandora_test2</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>Bear in Trash Can</dc:title>
+    <dc:subject>Bears</dc:subject>
+    <dc:description>Transcribed from slide mount: Man from New Orleans with Sulphor [sp.]; He gave me a paper weight.; He gave me a sulphor [sp.] paperweight</dc:description>
+    <dc:contributor>Derris, William (Creator)</dc:contributor>
+    <dc:date>1953-06</dc:date>
+    <dc:date>1953-06</dc:date>
+    <dc:type>StillImage</dc:type>
+    <dc:format>transparencies</dc:format>
+    <dc:identifier>test2:27</dc:identifier>
+    <dc:identifier>local: 0012_000603_000206_0001</dc:identifier>
+    <dc:identifier>local: derris_574</dc:identifier>
+    <dc:identifier>derris:574</dc:identifier>
+    <dc:language>zxx</dc:language>
+    <dc:relation>William Derris Collection--http://digital.lib.utk.edu/collections/derriscollection</dc:relation>
+    <dc:relation>William Derris Slide Collection--MS.2123</dc:relation>
+    <dc:rights>May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</dc:rights>
+    <dc:identifier.thumbnail>http://localhost:8000/islandora/object/test2%3A27/datastream/TN/view/Bear%20in%20Trash%20Can.jpg</dc:identifier.thumbnail><identifier>http://localhost:8000/islandora/object/test2%3A27</identifier></oai_dc:dc></metadata></record></GetRecord></OAI-PMH>
+
+
 
 
 
 
 What is the expected output
-the oai-dc on different records will have different things to look for.
 
 
 
