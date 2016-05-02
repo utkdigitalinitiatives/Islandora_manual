@@ -10,5 +10,5 @@
    * [Islandora Checksum](modules/islandora_checksum.md)
        * [Checksum / Ingest Creation](modules/tests/checksum__ingest_creation.md)
    * [Islandora OAI](islandora_oai.md)
-       * [Islandora OAI / Test XML](modules/tests/islandoraoai_test_xml__md.md)
+       * [Islandora OAI / Test XML](modules/tests/islandoraoaitest_xml.md)
 
