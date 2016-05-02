@@ -7,7 +7,19 @@
 ### Technology to use GUI or Drush
     Drush 6.* or the GUI
 
-####create a namespace:
+#### What is the needed test environment
+
+ a new islandora_vagrant instance, no new modules, just the standard modules from HEAD
+
+
+#### Files needed for testing
+
+make a directory:  /home/vagrant/test_files
+copy or download the test sample files there
+
+test-data.zip
+
+####create a namespace from within Islandora:
 
 1. create a test2 collection folder
 2. give it the name "test2" as a label
@@ -26,17 +38,7 @@ drush -v -u 1 --uri=http://localhost ibsp --content_models=islandora:sp_large_im
 and then the second command:
 
 drush -v -u 1 --uri=http://localhost islandora_batch_ingest
-#### What is the needed test environment
 
- a new islandora_vagrant instance, no new modules, just the standard modules from HEAD
-
-
-#### Files needed for testing
-
-make a directory:  /home/vagrant/test_files
-copy or download the test sample files there
-
-test-data.zip
 
 #### Possible ways to test & Step by Step to replicate test
 
