@@ -93,7 +93,7 @@ the result should look like this on the first image.
 
 ( I don't know if the above DC is correct, it looks like there are too many identifiers, but if we are just testing for whether it adds the namespaces, this doesn't.)
 
-Now if you go back into the OAI set for the handler, and set the datastream ID to MODS, and set the first transformation to mods_to_dc_oai.xsl and do this again, you will see namespaces in the record.
+Now if you go back into the OAI set for the handler, and set the datastream ID to MODS, and set the first transformation to mods_to_dc_oai.xsl and do this again, you will see namespaces in the record and you will see how the MODS data stream is transformed into the oai_dc on the fly.
 
 At this point, you can check the data stream in Fedora to see what was created there by the transform in the batch or importer module.
 
