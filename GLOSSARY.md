@@ -2,4 +2,4 @@
 
 ## Index
 
-This is an idex
+This is an index
