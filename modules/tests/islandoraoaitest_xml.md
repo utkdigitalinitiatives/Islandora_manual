@@ -134,6 +134,7 @@ Now, check how the if you go back into the OAI set for the handler, and set the 
 and set the first transformation to mods_to_dc_oai.xsl and view this record again.
 ![setup3](./is-oai-setup3.png?raw=true)
  
+####Check the DC output from the transform
 
 check the output from the same record in the browser
 http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_27
