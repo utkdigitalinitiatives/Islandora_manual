@@ -135,11 +135,32 @@ and set the first transformation to mods_to_dc_oai.xsl and view this record agai
 ![setup3](./is-oai-setup3.png?raw=true)
  
 
+check the output from the same record in the browser
+http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_27
+
+    <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2016-05-03T17:28:05Z</responseDate><request>http://localhost:8000/oai2</request><GetRecord><record><header><identifier>oai:drupal-site.org:test2_27</identifier><datestamp>2016-05-03T16:31:17Z</datestamp><setSpec>islandora_test2</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">0012_000603_000206_0001</dc:identifier>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">derris_574</dc:identifier>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">derris:574</dc:identifier>
+    <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Derris, William (Creator)</dc:contributor>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">Bear in Trash Can</dc:title>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">StillImage</dc:type>
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">transparencies</dc:format>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">zxx</dc:language>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">Transcribed from slide mount: Man from New Orleans with Sulphor [sp.]; He gave me a paper weight.; He gave me a sulphor [sp.] paperweight</dc:description>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">Bears</dc:subject>
+    <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">William Derris Collection--http://digital.lib.utk.edu/collections/derriscollection</dc:relation>
+    <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">William Derris Slide Collection--MS.2123</dc:relation>
+    <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</dc:rights>
+    <dc:identifier.thumbnail xmlns:dc="http://purl.org/dc/elements/1.1/">http://localhost:8000/islandora/object/test2%3A27/datastream/TN/view/Bear%20in%20Trash%20Can.jpg</dc:identifier.thumbnail><identifier>http://localhost:8000/islandora/object/test2%3A27</identifier></oai_dc:dc></metadata></record></GetRecord></OAI-PMH>
+
+this is the same DC transformed by the mods_to_dc_oai.xsl
 
 
 
 
-
+-------
 Success
 
 Failure
