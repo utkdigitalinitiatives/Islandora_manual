@@ -171,11 +171,10 @@ Do the same procedures on the other sample files, saving a copy of each.
 
 ###Begin the test of the module edits
 
- Go into the islandora admin interface and disable the islandora_oai, islandora_batch, and islandora_importer modules and save with the button at the bottom.
- 
- change to the /var/www/drupal/sites/all/modules directory
- 
- 
+ 1. Go into the islandora admin interface and disable the islandora_oai, islandora_batch, and islandora_importer modules and save with the button at the bottom.
+ 2. change to the /var/www/drupal/sites/all/modules directory
+ 3. delete the three modules
+ 4. add the edited ones:
  
 Success
 
