@@ -160,9 +160,23 @@ http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2
 this is the same DC transformed by the mods_to_dc_oai.xsl
 
 
-
-
 -------
+
+####Testing the other sample files
+
+Do the same procedures on the other sample files, saving a copy of each.
+- the DC file in Fedora:  test2_pid-fdc.xml
+- the no transform DC file:  test2_pid-ndc.xml
+- the transformed MODS file:  test2_pid-xdc.xml
+
+###Begin the test of the module edits
+
+ Go into the islandora admin interface and disable the islandora_oai, islandora_batch, and islandora_importer modules and save with the button at the bottom.
+ 
+ change to the /var/www/drupal/sites/all/modules directory
+ 
+ 
+ 
 Success
 
 Failure
