@@ -1,22 +1,12 @@
 # Islandora Checksum / Ingest Creation
 
----
-
 #### Test if checksum datastream is create during the ingestion process for new objects.
-
----
 
 #### Test basic image, large image, newspaper, pdf, audio, video, and books
 
----
-
 #### Use GUI and Drush
 
----
-
 #### Use a stock Islandora Vagrant setup without custom vagrant script
-
----
 
 #### Files to test with
 ```
@@ -29,8 +19,6 @@ test_date/
   video.mp4
   books.zip
 ```
-
----
 
 ## Test for Success:
 
@@ -55,7 +43,7 @@ $ next command....
 Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 
 | Field |VALUE|
-| -- | -- |
+| --------------| ---------------------------------------- |
 | ... | ... |
 | objectidentifierValue | MODS.0 |
 | messageDigestAlgorithm | SHA-256 |

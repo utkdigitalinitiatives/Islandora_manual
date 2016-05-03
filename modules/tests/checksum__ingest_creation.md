@@ -1,32 +1,30 @@
 # Islandora Checksum / Ingest Creation
 
+#### What is this test?
+Test if checksum datastream is create during the ingestion process for new objects.
 
+#### What is this going to test? (images, audio...)
+Test basic image, large image, newspaper, pdf, audio, video, and books
 
-#### Test if checksum datastream is create during the ingestion process for new objects.
+#### Technology to use GUI or Drush
+Use GUI and Drush
 
+#### What is the needed test environment
+Use a stock Islandora Vagrant setup without custom vagrant script
 
-#### Test basic image, large image, newspaper, pdf, audio, video, and books
-
-
-#### Use GUI and Drush
-
-
-#### Use a stock Islandora Vagrant setup without custom vagrant script
-
-
-#### Files to test with
+#### Files needed for this test
 ```
-test_date/
-  basic_images.zip
-  large_image.zip
-  newspaper.zip
-  basic_with_OCR.pdf
-  audio.mp3
-  video.mp4
-  books.zip
+* modules/
+  * tests/
+    * test_files/
+      * basic_images_sample_batch.zip
+      * large_image_sample_batch.zip
+      * newspaper_sample_issue.zip
+      * basic_with_OCR.pdf
+      * audio.mp3
+      * video.mp4
+      * books.zip
 ```
-
----
 
 ## Test for Success:
 
@@ -34,7 +32,7 @@ test_date/
 Administration >> Islandora >> Islandora Utility Modules >> Checksum
 
 * Check Enable Checksum checkbox
-* Checksume type = SHA-512
+* Checksum type = SHA-512
 * Datastreams to Checksum = MODS,OBJ
 * Save configuration
 
@@ -44,7 +42,10 @@ Administration >> Islandora >> Islandora Utility Modules >> Checksum
 #### Drush:
 ```bash
 $ drush --root=/var/www/drupal --user=admin pm-enable islandora_checksum
-$ next command....
+```
+```bash
+$ drush -v -u 1 --uri=http://localhost islandora_batch_scan_preprocess --type=zip --target=/path/to/archive.zip
+$ drush -v -u 1 --uri=http://localhost islandora_batch_ingest
 ```
 
 **Verify Success**:<br/>
@@ -64,18 +65,20 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 | ... | ... |
 
 
-## Make test fail
+## How to Make the test fail
 
-#### Files to test with
+#### Files to test with (mismatched DC names or corrupted files)
 ```
-test_date/
-  basic_image_corrupt.jpg
-  large_image_Mismatch_Mods.zip
-  newspaper_invalid_naming.zip
-  basic_with_password_protected.pdf
-  audio.mp4
-  video.mp3
-  books_missing_mods.zip
+* modules/
+  * tests/
+    * test_files/
+      * basic_image_corrupt.jpg
+      * large_image_Mismatch_Mods.zip
+      * newspaper_invalid_naming.zip
+      * basic_with_password_protected.pdf
+      * audio.mp4
+      * video.mp3
+      * books_missing_mods.zip
 ```
 
 **Ingest test files**
