@@ -160,7 +160,6 @@ http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2
 this is the same DC transformed by the mods_to_dc_oai.xsl
 
 
--------
 
 ####Testing the other sample files
 
@@ -171,7 +170,8 @@ Do the same procedures on the other sample files, saving a copy of each.
 
 (of course, you can make one kind, change the settings and make the other, you don't have to change the OAi settings on each file.)
 
-###Begin the test of the module edits
+-----
+##Begin the test of the module edits
 
  1. Go into the islandora admin interface and disable the islandora_oai, islandora_batch, and islandora_importer modules and save with the button at the bottom.
  2. change to the /var/www/drupal/sites/all/modules directory
