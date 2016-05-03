@@ -52,7 +52,7 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  select "OAI_DC" in the select  pull-down.
  
  check the box next to " Force include a link to the object within Islandora? ".
- [setup1](./is-oai-setup1.png)
+ ![setup1](./is-oai-setup1.png?raw=true "setup1")
  
  put "identifier" in the "Field" input text box.
  
