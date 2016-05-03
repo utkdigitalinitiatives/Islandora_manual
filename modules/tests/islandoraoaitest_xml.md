@@ -62,7 +62,7 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  
  select nothing in the second one.
  
- [setup2](./is-oai-setup2.png)
+ ![setup2](./is-oai-setup2.png?raw=true)
  save your changes and go back to the test2 collection page.
  
  
@@ -132,7 +132,7 @@ It will ask for the fedora user and password, (fedoraAdmin fedoraAdmin).
    
 Now, check how the if you go back into the OAI set for the handler, and set the datastream ID to MODS,
 and set the first transformation to mods_to_dc_oai.xsl and view this record again.
-[setup3](./is-oai-setup3.png)
+![setup3](./is-oai-setup3.png?raw=true)
  
 
 
