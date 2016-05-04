@@ -31,6 +31,10 @@ Social Media Channels:
 * Islandora CLAW Project
 
 ---
-**Roles:** release manager, component manager, testers, documentors, auditors
+**Roles:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
 
 [MKdocs](http://www.mkdocs.org)
+
+Committers Call 2pm EST via Skype <br/>
+Ticket Week: JIRA ticket reviews <br/>
+Roadmap Week:
