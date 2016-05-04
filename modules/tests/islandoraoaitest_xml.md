@@ -177,9 +177,11 @@ Do the same procedures on the other sample files, saving a copy of each.
  2. change to the /var/www/drupal/sites/all/modules directory
  3. delete the three modules
  4. add the edited ones:
+ 
     git clone https://github.com/utkdigitalinitiatives/islandora_batch
     git clone https://github.com/utkdigitalinitiatives/islandora_importer
     git clone https://github.com/utkdigitalinitiatives/islandora_oai
+ 
  5. enable the modules and save
  6. create a collection: test3 (to be able to refer to both)
  7. do the exact same ingest as before, but the namespace is test3
