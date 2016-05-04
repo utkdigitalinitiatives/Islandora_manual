@@ -45,6 +45,7 @@ Sign up form<br/>
 **Roles:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
 
 [MKdocs](http://www.mkdocs.org)
+RDF: ontology
 
 Committers Call 2pm EST via Skype <br/>
 Ticket Week: JIRA ticket reviews <br/>
