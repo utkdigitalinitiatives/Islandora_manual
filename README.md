@@ -8,7 +8,12 @@ Main Repos<br/>
 [Islandora-labs Repo](https://github.com/Islandora-Labs)<br/>
 Testing Repos<br/>
 
-Major Releases: Every April & October
+#### Major Releases: Every April & October
+**During Code Freeze:** Module Pull request in version and head <br/>
+
+Contribute Team Project:
+How to use this document? 
+Sign up form
 
 [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 
@@ -16,3 +21,4 @@ Social Media Channels:
 * Skype: community@islandora.ca
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
+
