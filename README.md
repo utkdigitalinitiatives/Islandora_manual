@@ -31,6 +31,13 @@ Social Media Channels:
 * Islandora CLAW Project
   * CLAW Calls
   * CLAW Lessons
+* Interest Groups
+  * Dev-Ops: Automated Install
+  * Metadata: Metadata Standards
+  * Documentation
+  * Institutional Repositories (IR)
+  * Deprecated: Archival, UI, GIS, Preservation, Fedora4
+* [Islandora Awesome](https://github.com/manez/islandora_awesome)
 
 ---
 **Roles:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
