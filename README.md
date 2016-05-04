@@ -2,11 +2,13 @@
 # Islandora Manual
 How to [install](install_islandora.md), use, test and break Islandora & Islandora Modules
 
-[Islandora Repo](https://github.com/Islandora)<br/>
-Main Repos<br/>
+[Islandora Repo](https://github.com/Islandora) Main Repos<br/>
+[Islandora-labs Repo](https://github.com/Islandora-Labs) Testing Repos<br/>
+[Islandora Interest Groups](https://github.com/islandora-interest-groups/)<br/>
+[Islandora Claw](https://github.com/Islandora-CLAW/)
 
-[Islandora-labs Repo](https://github.com/Islandora-Labs)<br/>
-Testing Repos<br/>
+[JIRA](https://jira.duraspace.org/browse/ISLANDORA)<br/>
+Issues report & tracker<br/>
 
 #### Major Releases: Every April & October
 **During Code Freeze:** Module Pull request in version and head <br/>
@@ -22,3 +24,4 @@ Social Media Channels:
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
 
+http://www.mkdocs.org/
