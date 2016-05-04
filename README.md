@@ -20,15 +20,17 @@ Sign up form<br/>
 [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 
 Social Media Channels:
-* Skype: community@islandora.ca
+* Skype: **community@islandora.ca**
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
 * [Developers Google Group](https://groups.google.com/forum/?hl=en&fromgroups=#!forum/islandora-dev)
 * Listserv
 * Release Team
-* Committers Call
+[* Committers Call](http://islandora.ca/developers/committers_call) **Out of Date**
 * Committers
 * Islandora CLAW Project
+  * CLAW Calls
+  * CLAW Lessons
 
 ---
 **Roles:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
