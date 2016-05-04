@@ -10,11 +10,11 @@ How to [install](install_islandora.md), use, test and break Islandora & Islandor
 [JIRA](https://jira.duraspace.org/browse/ISLANDORA): Issues report & tracker<br/>
 
 #### Major Releases: Every April & October
-**During Code Freeze:** Module Pull request in version and head <br/>
+*During Code Freeze:* Module Pull request in version and head <br/>
 
-Contribute Team Project:
-How to use this document? 
-Sign up form
+Contribute Team Project:<br/>
+How to use this document?<br/>
+Sign up form<br/>
 
 [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 
