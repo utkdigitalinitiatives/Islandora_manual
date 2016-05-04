@@ -185,6 +185,6 @@ Do the same procedures on the other sample files, saving a copy of each.
  
  5. enable the modules and save
  6. create a collection: test3 (to be able to refer to both)
- 7. do the exact same ingest as before, but the namespace is test3
+ 7. do the exact same ingest as before, but the namespace is test3 and the parent is islandora:test3
  8. make the 18 test3 xml files.
  
