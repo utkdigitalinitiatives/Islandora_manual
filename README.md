@@ -4,10 +4,9 @@ How to [install](install_islandora.md), use, test and break Islandora & Islandor
 
 [Islandora Repo](https://github.com/Islandora): Main Repos<br/>
 [Islandora-labs Repo](https://github.com/Islandora-Labs): Testing Repos<br/>
-[Islandora Interest Groups](https://github.com/islandora-interest-groups/)<br/>
 [Islandora Claw](https://github.com/Islandora-CLAW/)<br/>
 [fcrepo4-labs](https://github.com/fcrepo4-labs) : [Migration Script](https://github.com/fcrepo4-exts/migration-utils)<br/>
-[JIRA](https://jira.duraspace.org/browse/ISLANDORA): Issues report & tracker<br/>
+[JIRA](https://jira.duraspace.org/browse/ISLANDORA): Bugs, fix, new feature request. Duraspcace Account Needed. Send request to community@islandora.ca
 
 #### Major Releases: Every April & October
 *During Code Freeze:* Module Pull request in version and head <br/>
@@ -24,6 +23,7 @@ Social Media Channels:
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
 * [Developers Google Group](https://groups.google.com/forum/?hl=en&fromgroups=#!forum/islandora-dev)
+* [Islandora Interest Groups](https://github.com/islandora-interest-groups/)
 * Listserv
 * Release Team
 [* Committers Call](http://islandora.ca/developers/committers_call) **Out of Date**
