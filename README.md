@@ -23,5 +23,14 @@ Social Media Channels:
 * Skype: community@islandora.ca
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
+* [Developers Google Group](https://groups.google.com/forum/?hl=en&fromgroups=#!forum/islandora-dev)
+* Listserv
+* Release Team
+* Committers Call
+* Committers
+* Islandora CLAW Project
+
+---
+**Roles:** release manager, component manager, testers, documentors, auditors
 
 [MKdocs](http://www.mkdocs.org)
