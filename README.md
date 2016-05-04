@@ -1,6 +1,6 @@
 ![Islandora Logo](http://islandora.ca/sites/default/files/Islandora.png)
 # Islandora Manual | [Book Version](https://www.gitbook.com/book/utkdigitalinitiatives/islandora-manual/)
-How to [install](install_islandora.md), use, test and break Islandora & Islandora Modules. NOT and OFFICIAL Islandora product. This is intended to be an all encompassing manual intended to use at University of Tennessee digital initiatives department for using and testing. But anyone is welcome to use. Developed with Gitbooks
+How to [install](install_islandora.md), use, test and break Islandora & Islandora Modules. NOT an OFFICIAL Islandora product. This is intended to be a manual intended for use at the University of Tennessee Knoxville's digital initiatives department. But anyone is welcome to use. Developed with Gitbooks
 
 [Islandora Repo](https://github.com/Islandora): Main Repos<br/>
 [Islandora-labs Repo](https://github.com/Islandora-Labs): Testing Repos<br/>
