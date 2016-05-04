@@ -16,6 +16,7 @@ Contribute Team Project:<br/>
 How to use this document?<br/>
 Sign up form<br/>
 
+
 [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 
 Social Media Channels:
@@ -23,4 +24,4 @@ Social Media Channels:
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
 * [Google Forum](https://groups.google.com/forum/#!topic/islandora)
 
-http://www.mkdocs.org/
+[MKdocs](http://www.mkdocs.org)
