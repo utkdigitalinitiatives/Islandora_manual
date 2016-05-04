@@ -178,9 +178,9 @@ Do the same procedures on the other sample files, saving a copy of each.
  3. delete the three modules
  4. add the edited ones:
  
-    git clone https://github.com/utkdigitalinitiatives/islandora_batch
-    git clone https://github.com/utkdigitalinitiatives/islandora_importer
-    git clone https://github.com/utkdigitalinitiatives/islandora_oai
+     git clone https://github.com/utkdigitalinitiatives/islandora_batch
+     git clone https://github.com/utkdigitalinitiatives/islandora_importer
+     git clone https://github.com/utkdigitalinitiatives/islandora_oai
  
  5. enable the modules and save
  6. create a collection: test3 (to be able to refer to both)
