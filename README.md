@@ -8,7 +8,7 @@ How to [install](install_islandora.md), use, test and break Islandora & Islandor
 * [Islandora Claw](https://github.com/Islandora-CLAW/): [README.md API/Documentation Compiled](http://islandora-claw.github.io/CLAW/)
 * [fcrepo4-labs](https://github.com/fcrepo4-labs) : [Migration Script](https://github.com/fcrepo4-exts/migration-utils)
 * [Islandora Awesome](https://github.com/manez/islandora_awesome)
-
+*
 #### Major Releases: Every April & October
 *During Code Freeze:* Module Pull request in version and head <br/>
 Contribute Team Project:<br/>
@@ -50,3 +50,8 @@ RDF: ontology
 Committers Call 2pm EST via Skype <br/>
 Ticket Week: JIRA ticket reviews <br/>
 Roadmap Week:
+
+Drupal
+Fedora
+Solr
+Gsearch : [./fedoragsearch/rest](localhost:8080/fedoragsearch/rest)
