@@ -17,7 +17,7 @@ Sign up form<br/>
 
 
 #### Community Channels:
-* [JIRA](https://jira.duraspace.org/browse/ISLANDORA): Bugs, fix, new feature request. Duraspcace Account Needed. Send request to community@islandora.ca
+* [JIRA](https://jira.duraspace.org/browse/ISLANDORA): Bugs, fix, new feature request. Duraspcace Account Needed. Send request to **community@islandora.ca**
 * [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 * Skype: **community@islandora.ca**
 * IRC:Freenode / #islandora [irclogs](http://irclogs.islandora.ca) 
