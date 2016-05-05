@@ -44,14 +44,21 @@ Sign up form<br/>
 
 **Roles:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
 
-[MKdocs](http://www.mkdocs.org)
+[MKdocs](http://www.mkdocs.org)<br/>
 RDF: ontology
 
 Committers Call 2pm EST via Skype <br/>
 Ticket Week: JIRA ticket reviews <br/>
 Roadmap Week:
 
+##### Stack:
+```
 Drupal
 Fedora
-Solr
-Gsearch : [./fedoragsearch/rest](localhost:8080/fedoragsearch/rest)
+Solr :
+Gsearch : [./fedoragsearch/rest](http://localhost:8080/fedoragsearch/rest)
+Tuque
+  APIa :
+  APIm : Modify
+
+```
