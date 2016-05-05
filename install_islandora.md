@@ -2,7 +2,13 @@
 
 ## Vagrant Setup OSX, Windows, Linux
 
-**OSX:**
+## Setup on OS X
+#### Video: Open Terminal from within OS X
+[![Open Terminal](http://img.youtube.com/vi/zw7Nd67_aFw/0.jpg)](https://youtu.be/zw7Nd67_aFw)
+
+#### Install brew, virtualbox, vagrant, and git
+
+*From Terminal:*
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
@@ -16,4 +22,42 @@ git clone https://github.com/utkdigitalinitiatives/islandora_vagrant
 cd islandora_vagrant
 vagrant up
 ```
-**Windows:**
+## Setup on Windows
+Follow these links and install the apps for your version of windows
+1. [VirtualBox](https://www.virtualbox.org/)
+2. [Vagrant](http://www.vagrantup.com)
+3. [git](https://git-scm.com/)
+
+Start >> Run >> cmd __OR__ Windows Key + R >> cmd
+```bash
+cd %USERPROFILE%\Desktop
+git clone https://github.com/utkdigitalinitiatives/islandora_vagrant
+cd islandora_vagrant
+vagrant up
+```
+
+
+## Typical Daily Use
+Note for Windows: replace ~/desktop with %USERPROFILE%\Desktop
+__To Start__
+Open Terminal
+```bash
+cd ~/desktop/islandora_vagrant
+vagrant up
+```
+
+__To Stop when done using Islandora__
+Open Terminal
+```bash
+cd ~/desktop/islandora_vagrant
+vagrant halt
+```
+
+__Oops. Messed up Islandora?__ Just reset/delete everything in vagrant like this
+Open Terminal
+```bash
+cd ~/desktop/islandora_vagrant
+vagrant halt
+vagrant destroy
+vagrant up
+```
