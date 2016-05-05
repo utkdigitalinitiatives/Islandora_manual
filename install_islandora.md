@@ -18,7 +18,7 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew install git
-cd desktop
+cd ~/desktop
 git clone https://github.com/utkdigitalinitiatives/islandora_vagrant
 cd islandora_vagrant
 vagrant up
@@ -60,5 +60,11 @@ vagrant halt
 vagrant destroy
 vagrant up
 ```
+## Docker
+Do vagrant install first but skip after the cd ~/desktop
 
+```bash
+vagrant plugin install vagrant-docker-compose
+docker-compose -f [yml] up -d
+```
 ## Server Setup
