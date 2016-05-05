@@ -38,23 +38,21 @@ vagrant up
 
 
 ## Typical Daily Use
-Note for Windows: replace ~/desktop with %USERPROFILE%\Desktop
-__To Start__
-Open Terminal
+Note for Windows: replace ~/desktop with %USERPROFILE%\Desktop<br/>
+To __Start__ Open Terminal
 ```bash
 cd ~/desktop/islandora_vagrant
 vagrant up
 ```
 
-__To Stop when done using Islandora__
+To __Stop__ when done using Islandora
 Open Terminal
 ```bash
 cd ~/desktop/islandora_vagrant
 vagrant halt
 ```
 
-__Oops. Messed up Islandora?__ Just reset/delete everything in vagrant like this
-Open Terminal
+To **Start-Over**, Open Terminal
 ```bash
 cd ~/desktop/islandora_vagrant
 vagrant halt
