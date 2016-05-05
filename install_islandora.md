@@ -62,7 +62,7 @@ vagrant up
 ```
 ## Docker
 Do vagrant install first but skip after the cd ~/desktop
-
+[vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose)
 ```bash
 vagrant plugin install vagrant-docker-compose
 docker-compose -f [yml] up -d
