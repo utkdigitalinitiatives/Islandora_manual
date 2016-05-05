@@ -28,7 +28,7 @@ Sign up form<br/>
 * Release Team
 [* Committers Call](http://islandora.ca/developers/committers_call) **Out of Date**
 * Committers
-* Islandora CLAW Project
+* [Islandora CLAW Project](https://github.com/Islandora-CLAW/CLAW)
   * CLAW Calls
   * CLAW Lessons
 * Interest Groups
