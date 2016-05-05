@@ -1,11 +1,10 @@
 # Install Islandora
 
 ## Vagrant Setup
-OSX, Windows, Linux
-
+*_OSX, Windows, Linux_*
 
 ### Setup on OS X
-#### Video: Open Terminal from within OS X
+__Video: Open Terminal from within OS X__
 [![Open Terminal](http://img.youtube.com/vi/zw7Nd67_aFw/0.jpg)](https://youtu.be/zw7Nd67_aFw)
 
 #### Install brew, virtualbox, vagrant, and git
@@ -62,4 +61,4 @@ vagrant destroy
 vagrant up
 ```
 
-[Install Vagrant](#vagrant-instal)
+## Server Setup
