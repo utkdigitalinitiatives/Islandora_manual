@@ -173,25 +173,18 @@ Do the same procedures on the other sample files, saving a copy of each.
 -----
 ##Begin the test of the module edits
 
- 1. Go into the islandora admin interface and disable the islandora_oai, islandora_batch, and islandora_importer modules and save with the button at the bottom.
+ 1. Go into the islandora admin interface 
+ 2. disable the islandora_oai and islandora_importer modules ( disabling the islandora batch module requires disabling a lot of pre-requisite modules and you can disable those but you have to use the requirements in the description beside the module to also re-enable them in the correct order.)
  2. change to the /var/www/drupal/sites/all/modules directory
  3. delete the three modules
  4. add the edited ones:
  
- 5. enable the edited ones
+     git clone https://github.com/utkdigitalinitiatives/islandora_batch
+     git clone https://github.com/utkdigitalinitiatives/islandora_importer
+     git clone https://github.com/utkdigitalinitiatives/islandora_oai
+ 
+ 5. enable the modules and save
  6. create a collection: test3 (to be able to refer to both)
- 7. do the exact same ingest as before, but the namespace is test3
+ 7. do the exact same ingest as before, but the namespace is test3 and the parent is islandora:test3
  8. make the 18 test3 xml files.
  
-
-Success
-
-Failure
-
-How verify test was successful
-????
-
-Optional Notes:
-
-#### Make test fail
-Optional Notes: *
