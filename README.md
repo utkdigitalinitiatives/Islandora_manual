@@ -2,7 +2,7 @@
 # [Islandora Manual](https://github.com/utkdigitalinitiatives/Islandora_manual) | [Book Version](https://www.gitbook.com/book/utkdigitalinitiatives/islandora-manual/)
 How to [install](install_islandora.md), use, test and break Islandora & Islandora Modules. NOT an OFFICIAL Islandora product. This is intended to be a manual intended for use at the University of Tennessee Knoxville's digital initiatives department. But anyone is welcome to use. Developed with Gitbooks
 
-**Repositories:**<br/>
+#### Repositories:
 * [Islandora Repo](https://github.com/Islandora): Main Repos
 * [Islandora-labs Repo](https://github.com/Islandora-Labs): Testing Repos
 * [Islandora Claw](https://github.com/Islandora-CLAW/): [README.md API/Documentation Compiled](http://islandora-claw.github.io/CLAW/)
@@ -16,7 +16,7 @@ How to use this document?<br/>
 Sign up form<br/>
 
 
-**Community Channels:**
+#### Community Channels:
 * [JIRA](https://jira.duraspace.org/browse/ISLANDORA): Bugs, fix, new feature request. Duraspcace Account Needed. Send request to community@islandora.ca
 * [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora)
 * Skype: **community@islandora.ca**
@@ -32,12 +32,12 @@ Sign up form<br/>
   * CLAW Calls
   * CLAW Lessons
 * Interest Groups
-  * Dev-Ops: Automated Install
-  * Metadata: Metadata Standards
+  * **Dev-Ops**: Automated Install
+  * **Metadata**: Metadata Standards
   * Documentation
-  * Institutional Repositories (IR)
-  * Deprecated: Archival, UI, GIS, Preservation, Fedora4
-* 
+  * Institutional Repositories (**IR**)
+  * Deprecated: **Archival**, **UI**, **GIS**, **Preservation**, **Fedora4**
+
 
 ---
 **Random Notes that need to be moved**<br/>
