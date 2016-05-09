@@ -43,7 +43,11 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
 
 #### Possible ways to test & Step by Step to replicate test
 
- in the islandora admin pages, go to the oai setup,  use the standard values and click "configure" on the handler setup at the bottom of the screen.
+ in the islandora admin pages, go to the oai setup, 
+ 
+ Home » Administration » Islandora » Islandora Utility Modules » Islandora OAI
+ 
+ use the standard values and click "configure" on the handler setup at the bottom of the screen.
  
  Be sure the "insert link for thumbnail box is checked.
  
