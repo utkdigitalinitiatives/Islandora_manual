@@ -102,14 +102,16 @@ the result should look like this on the first image.
 
 ####Compare this to the actual DC in the Fedora record.
 
-At this point, you can check the data stream in Fedora to see what was created there by the transform in the batch or importer module.
+Two ways to get the DC from the Fedora record:
+ 1. you can check the data stream in the Fedora client.
 
     http://localhost:8080/fedora/admin
 
   In the Open Object field, put test2:27 and click "Open". 
-It will ask for the fedora user and password, (fedoraAdmin fedoraAdmin).
+  It will ask for the fedora user and password, (fedoraAdmin fedoraAdmin), then click export and it will download to your computer the file that contains the DC.
+  
+ 2. looking at the datastreams of the record, you can download the DC datastream.
 
-  then click export and it will download to your computer the file that contains the DC.
 
     <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
