@@ -112,6 +112,7 @@ Two ways to get the DC from the Fedora record:
   
  2. looking at the datastreams of the record, you can download the DC datastream.
 
+DC.xml
 
     <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
