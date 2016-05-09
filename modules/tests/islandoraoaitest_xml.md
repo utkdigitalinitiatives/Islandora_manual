@@ -59,20 +59,20 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
  
  put "identifier" in the "Field" input text box.
  
- in the transformations area, select "DC" in the datastream id box.
+ * in the transformations area, select "DC" in the datastream id box.
  
- in the first transformation select pull-down, select no transformation
+   1. in the first transformation select pull-down, select no transformation
  
- select nothing in the second one.
+   2. select nothing in the second one.
  
  ![setup2](./is-oai-setup2.png?raw=true)
- save your changes and go back to the test2 collection page.
+ * save your changes and go back to the test2 collection page.
  
  
-the output can be found in a brower at: 
+* the output can be found in a brower at: 
 http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
 
-do a view source on the page you are seeing.
+* do a view source on the page you are seeing.
 the result should look like this on the first image.
 
      <?xml version="1.0" encoding="UTF-8"?>
