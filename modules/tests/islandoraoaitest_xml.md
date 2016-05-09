@@ -43,17 +43,16 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
 
 #### Possible ways to test & Step by Step to replicate test
 
- in the islandora admin pages, go to the oai setup, 
+ * In the islandora admin pages, go to the oai setup, 
  
- Home » Administration » Islandora » Islandora Utility Modules » Islandora OAI
+   Home » Administration » Islandora » Islandora Utility Modules » Islandora OAI
  
- use the standard values and click "configure" on the handler setup at the bottom of the screen.
+ * Use the standard values and click "configure" on the handler setup at the bottom of the screen.
+   Be sure the "insert link for thumbnail box is checked.
  
- Be sure the "insert link for thumbnail box is checked.
- 
- In the METADATA FORMAT section:
- 
- select "OAI_DC" in the select  pull-down.
+ * In the METADATA FORMAT section:
+  
+  select "OAI_DC" in the select  pull-down.
  
  check the box next to " Force include a link to the object within Islandora? ".
  ![setup1](./is-oai-setup1.png?raw=true "setup1")
