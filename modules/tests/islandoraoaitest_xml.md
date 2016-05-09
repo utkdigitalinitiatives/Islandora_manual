@@ -73,7 +73,9 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
 http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
 
 * do a view source on the page you are seeing.
-* the result should look like this on the first image.
+
+the result should look like this on the first image.
+
     <?xml version="1.0" encoding="UTF-8"?>
     <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2016-05-02T21:26:29Z</responseDate><request>http://localhost:8000/oai2</request><GetRecord><record><header><identifier>oai:drupal-site.org:test2_27</identifier><datestamp>2016-05-02T21:02:23Z</datestamp><setSpec>islandora_test2</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
     <dc:title>Bear in Trash Can</dc:title>
