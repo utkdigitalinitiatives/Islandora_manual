@@ -43,36 +43,40 @@ At this point you should have 6 basic images and metadata in the "test2" folder.
 
 #### Possible ways to test & Step by Step to replicate test
 
- in the islandora admin pages, go to the oai setup,  use the standard values and click "configure" on the handler setup at the bottom of the screen.
+ * In the islandora admin pages, go to the oai setup, 
  
- Be sure the "insert link for thumbnail box is checked.
+   Home » Administration » Islandora » Islandora Utility Modules » Islandora OAI
  
- In the METADATA FORMAT section:
+ * Use the standard values and click "configure" on the handler setup at the bottom of the screen.
+   Be sure the "insert link for thumbnail box is checked.
  
- select "OAI_DC" in the select  pull-down.
+ * In the METADATA FORMAT section:
+  
+  select "OAI_DC" in the select  pull-down.
  
  check the box next to " Force include a link to the object within Islandora? ".
  ![setup1](./is-oai-setup1.png?raw=true "setup1")
  
  put "identifier" in the "Field" input text box.
  
- in the transformations area, select "DC" in the datastream id box.
+ * in the transformations area, select "DC" in the datastream id box.
  
- in the first transformation select pull-down, select no transformation
+   1. in the first transformation select pull-down, select no transformation
  
- select nothing in the second one.
+   2. select nothing in the second one.
  
  ![setup2](./is-oai-setup2.png?raw=true)
- save your changes and go back to the test2 collection page.
+ * save your changes and go back to the test2 collection page.
  
  
-the output can be found in a brower at: 
+* the output can be found in a brower at: 
 http://localhost:8000/oai2?verb=GetRecord&metadataPrefix=oai_dc&identifier=test2_  (+ the pid number of the image you are testing)
 
-do a view source on the page you are seeing.
+* do a view source on the page you are seeing.
+
 the result should look like this on the first image.
 
-     <?xml version="1.0" encoding="UTF-8"?>
+    <?xml version="1.0" encoding="UTF-8"?>
     <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2016-05-02T21:26:29Z</responseDate><request>http://localhost:8000/oai2</request><GetRecord><record><header><identifier>oai:drupal-site.org:test2_27</identifier><datestamp>2016-05-02T21:02:23Z</datestamp><setSpec>islandora_test2</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
     <dc:title>Bear in Trash Can</dc:title>
     <dc:subject>Bears</dc:subject>
@@ -98,14 +102,17 @@ the result should look like this on the first image.
 
 ####Compare this to the actual DC in the Fedora record.
 
-At this point, you can check the data stream in Fedora to see what was created there by the transform in the batch or importer module.
+Two ways to get the DC from the Fedora record:
+ 1. you can check the data stream in the Fedora client.
 
     http://localhost:8080/fedora/admin
 
   In the Open Object field, put test2:27 and click "Open". 
-It will ask for the fedora user and password, (fedoraAdmin fedoraAdmin).
+  It will ask for the fedora user and password, (fedoraAdmin fedoraAdmin), then click export and it will download to your computer the file that contains the DC.
+  
+ 2. looking at the datastreams of the record, you can download the DC datastream.
 
-  then click export and it will download to your computer the file that contains the DC.
+DC.xml
 
     <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
