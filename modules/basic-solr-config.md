@@ -40,6 +40,12 @@ There are two (or three) branches that are significant for us:
 
 ### 4.x-vagrant ###
 
-localizations for testing in islandora_vagrant
-
+#### Notes for production islandora_vagrant VM ####
+* The provided aliases in `islandora_vagrant/configs/variables` don't always seem to work correctly; e.g.
+```sh
+$FEDORA_HOME
+$DRUPAL_HOME
+...
+```
+will not always expand.
 
