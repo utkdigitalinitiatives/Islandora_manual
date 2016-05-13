@@ -30,7 +30,7 @@ There are two (or three) branches that are significant for us:
     * *islandora_transforms/* 
     * *foxmlToSolr.xslt* 
     * *index.properties*
-* *solr-conf/\** should be under `production:$SOLR_HOME/collection1/conf/`
+* *solr-conf/** should be under `production:$SOLR_HOME/collection1/conf/`
 
 ####  Notes for production & dev: ####
 * $FEDORA_HOME = /vhosts/fedora
