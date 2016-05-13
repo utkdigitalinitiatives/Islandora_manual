@@ -23,17 +23,19 @@ There are two (or three) branches that are significant for us:
 
 ### 4.x ### 
 
-* *fedora-conf/fedora.fcfg* should be under production:$FEDORA_HOME/server/config
-* *fedoragsearch-conf/updater* should be under production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/ and **replaces** the pre-existing updater directory there
-* *fedoragsearch-conf/fedoragsearch.properties* should be under production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/ and **replaces** the pre-existing fedoragsearch.properties file there
-* All of the following files and directories should be under production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/
+* *fedora-conf/fedora.fcfg* should be under `production:$FEDORA_HOME/server/config`
+* *fedoragsearch-conf/updater* should be under `production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/` and **replaces** the pre-existing updater directory there
+* *fedoragsearch-conf/fedoragsearch.properties* should be under `production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/` and **replaces** the pre-existing fedoragsearch.properties file there
+* All of the following files and directories should be under `production:$CATALINA_HOME/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/`
     * *islandora_transforms/* 
     * *foxmlToSolr.xslt* 
     * *index.properties*
+* *solr-conf/\** should be under `production:$SOLR_HOME/collection1/conf/`
 
 ####  Notes for production & dev: ####
-* $FEDORA_HOME = /vhosts/fedora/
+* $FEDORA_HOME = /vhosts/fedora
 * $CATALINA_HOME = /vhosts/fedora/tomcat
+* $SOLR_HOME = /vhosts/fedora/solr
 * Ownership is usually `islandora:islandora`
 
 ### 4.x-vagrant ###
