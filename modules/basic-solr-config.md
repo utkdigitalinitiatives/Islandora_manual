@@ -1,6 +1,6 @@
 # Basic Solr Config #
 
-* [What is basic-solr-confi](#what-is-this)
+* [What is basic-solr-config](#what-is-this)
 * [Testing](#testing)
 * [Using the Branches](#using-the-branches)
 
@@ -21,5 +21,8 @@ The components in basic-solr-config are **not** pre-installed. The default confi
 
 There are two (or three) branches that are significant for us:
 
-* **4.x** - our production branch
+* **4.x** - localizations for our production environments
 * **4.x-vagrant** - localizations for testing in islandora_vagrant
+
+### 4.x ###
+
