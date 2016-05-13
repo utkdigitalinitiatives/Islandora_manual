@@ -44,7 +44,12 @@ There are two (or three) branches that are significant for us:
 
 * *fedora-conf/fedora.fcfg* should be under `vm:/usr/local/fedora/server/config`
 * *fedoragsearch-conf/updater* should be `vm:/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/` and **replaces** the pre-existing updater directory there
-* 
+* *fedoragsearch-conf/fedoragsearch.properties* should be under `vm:/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/` and **replaces** the pre-existing fedorgsearch.properties file there
+* All of the following files and directories should be under `vm:/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/`
+    * *islandora_transforms/*
+    * *foxmlToSolr.xslt*
+    * *index.properties*
+* *solr-conf/** should be under `vm:/usr/local/solr/collection1/conf/`
 
 #### Notes for production islandora_vagrant VM ####
 * The provided aliases in `islandora_vagrant/configs/variables` don't always seem to work correctly; e.g.
