@@ -7,8 +7,8 @@
 <a id="what-is-this"></a>
 ## What is this? ##
 
-*basic-solr-config* is a collection of configuration files for Fedora Commons, Fedora Generic Search (fedoragsearch or gsearch), and Solr.
-The components in [basic-solr-config](https://github.com/utkdigitalinitiatives/basic-solr-config) are **not** pre-installed. The default configurations in islandora_vagrant differ slightly. The following notes point out how to use our localizations. 
+*basic-solr-config* is a collection of configuration files and XSL transforms for Fedora Commons, Fedora Generic Search (fedoragsearch or gsearch), and Solr.
+The components in basic-solr-config are **not** pre-installed. The default configurations in islandora_vagrant differ slightly. The following notes point out how to use our localizations. 
 
 <a id="testing"></a>
 ## Testing ##
