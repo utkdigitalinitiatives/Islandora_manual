@@ -40,6 +40,12 @@ There are two (or three) branches that are significant for us:
 
 ### 4.x-vagrant ###
 
+**Note:** File paths for the vagrant VM are slightly different!
+
+* *fedora-conf/fedora.fcfg* should be under `vm:/usr/local/fedora/server/config`
+* *fedoragsearch-conf/updater* should be `vm:/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/` and **replaces** the pre-existing updater directory there
+* 
+
 #### Notes for production islandora_vagrant VM ####
 * The provided aliases in `islandora_vagrant/configs/variables` don't always seem to work correctly; e.g.
 ```sh
