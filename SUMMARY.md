@@ -11,4 +11,5 @@
        * [Checksum / Ingest Creation](modules/tests/checksum__ingest_creation.md)
    * [Islandora OAI](modules/islandora_oai.md)
        * [Islandora OAI / Test XML](modules/tests/islandoraoaitest_xml.md)
+   * [Basic Solr Config](modules/basic-solr-config.md)
 
