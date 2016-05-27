@@ -12,5 +12,5 @@
    * [Islandora OAI](modules/islandora_oai.md)
        * [Islandora OAI / Test XML](modules/tests/islandoraoaitest_xml.md)
    * [Basic Solr Config](modules/basic-solr-config.md)
-   * Islandora Book Batch Preprocess
+   * [Islandora Book Batch Preprocess](modules/islandora_book_batch_preprocess.md)
 
