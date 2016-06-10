@@ -15,4 +15,5 @@
    * [Basic Solr Config](modules/basic-solr-config.md)
    * [Islandora Book Batch Preprocess](modules/islandora_book_batch_preprocess.md)
        * [Book Batch Ingest with Alpha Channel](modules/tests/book_batch_ingest.md)
+   * [Islandora OCR](module/islandora_ocr.md)
 

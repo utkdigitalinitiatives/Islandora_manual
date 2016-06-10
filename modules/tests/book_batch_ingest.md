@@ -1,47 +1,90 @@
 # Book Batch Ingest with Alpha Channel
 
 #### What is this test?<br/>
-Batch ingest a book with drush commands from the sample folder containing a book folder. In the folder is a **DC.xml** files with 2 folders containing the **Tif** images/pages.<br/>
+Batch ingest a book with drush commands from a zip or directory. In the folder is a **DC.xml** files with 2 folders containing the **Obj** images representing pages.<br/>
 
 #### What is this going to test?<br/>
 OCR/HOCR is created for all images/pages during batch ingest<br/>
 
-
 #### Technology to use: *Drush*<br/>
 
 #### What is the needed test environment<br/>
-Current release [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)<br/>
+[Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)<br/>
 
 #### Files needed for testing<br/>
-```
-* modules/
-  * tests/
-    * test_files/
-      * with-alpha-channel-book.zip
+```terminal
+./This repo/
+├── modules
+│   └── tests
+│       └── test_files
+│           └── with-alpha-channel-book.zip
 ```
 <br/>
-***Optional Notes:***<br/>
+***Optional to test directory:***<br/>
  Unzip into the root folder of [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)
+```terminal
+./with-alpha-channel-book/
+├── alpha
+│   ├── 1
+│   │   └── OBJ.tif
+│   ├── 2
+│   │   └── OBJ.tif
+│   ├── 3
+│   │   └── OBJ.tif
+│   ├── 4
+│   │   └── OBJ.tif
+│   └── DC.xml
+├── embedded
+│   ├── 1
+│   │   ├── DC.xml
+│   │   └── OBJ.tif
+│   └── 2
+│       ├── DC.xml
+│       ├── HOCR.shtml
+│       ├── OBJ.tif
+│       ├── OCR.asc
+│       └── Thumbnail.jpg
+└── nonalpha
+    ├── 1
+    │   └── OBJ.tif
+    ├── 2
+    │   └── OBJ.tif
+    ├── 3
+    │   └── OBJ.tif
+    ├── 4
+    │   └── OBJ.tif
+    └── DC.xml
+```
 <br/>
 
 #### Possible ways to test & Step by Step to replicate test<br/>
-From Terminal 
+**From Terminal**
 ```terminal
 $ cd path/to/islandora_vagrant
 $ vagrant up
 $ cd /var/www/drupal/
+```
+*For Directory*
+```terminal
 $ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=directory --target=/vagrant/with-alpha-channel-book/
+$ drush -v -u 1 --uri=localhost islandora_batch_ingest
+```
+*For Zip*
+```terminal
+$ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=zip --target=/vagrant/with-alpha-channel-book.zip
 $ drush -v -u 1 --uri=localhost islandora_batch_ingest
 ```
 
 [http://localhost:8000/](http://localhost:8000/)<br/>
 
-Islandora Repository > Book Collection > The independent truth.<br/>
+### Islandora Repository > Book Collection > <br/>
 
-Pages > book:75-1 > Manage > Datastreams<br/><br/>
+**With Alpha Channel | Without Alpha Channel | embedded**
+
+Pages > Any Page > Manage > Datastreams<br/><br/>
 
 
-##### Passing Test Results:
+#### Passing Test Results:
 
 | ID	| LABEL	| TYPE	| MIME TYPE	| SIZE	| VERSIONS	| OPERATIONS | OPERATIONS | OPERATIONS | OPERATIONS |
 |--|--|--|--|--|--|--|--|--|--|--|
@@ -62,7 +105,6 @@ Pages > book:75-1 > Manage > Datastreams<br/><br/>
 <br/><br/>
 
 #### Make Test Fail<br/>
->Warning: Current Version is Failing
 
 Using an outdated version of Islandora<br/>
 
