@@ -13,6 +13,7 @@
    * [Islandora OAI](modules/islandora_oai.md)
        * [Islandora OAI / Test XML](modules/tests/islandoraoaitest_xml.md)
    * [Basic Solr Config](modules/basic-solr-config.md)
+       * [Basic Solr Config / Test](modules/tests/basic-solr-config-test.md)    
    * [Islandora Book Batch Preprocess](modules/islandora_book_batch_preprocess.md)
        * [Book Batch Ingest with Alpha Channel](modules/tests/book_batch_ingest.md)
    * [Islandora OCR](module/islandora_ocr.md)
