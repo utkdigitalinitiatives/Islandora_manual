@@ -1,10 +1,10 @@
 {
     "plugins": [
-        "toc",
+        "-toc",
         "structured-toc"
     ],
     "pluginsConfig": {
-        "toc": {
+        "-toc": {
             "addClass": true,
             "className": "toc"
         }
