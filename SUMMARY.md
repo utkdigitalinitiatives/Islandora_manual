@@ -8,7 +8,7 @@
 * [Ingest Procedures](ingest_procedures.md)
 * [Batch Ingest](batch_ingest.md)
 * [Islandora Modules](islandora_modules.md)
-   * [Islandora Checksum](modules/islandora_checksum.md)
+   * [Islandora Checksum](modules/Islandora_Checksum.md)
        * [Checksum / Ingest Creation](modules/tests/checksum__ingest_creation.md)
    * [Islandora OAI](modules/islandora_oai.md)
        * [Islandora OAI / Test XML](modules/tests/islandoraoaitest_xml.md)
