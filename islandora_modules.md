@@ -1,4 +1,4 @@
-# Islandora Modules
+# Islandora Modules (most of these aren't written yet!)
 
 [Islandora](modules/Islandora.md)<br/>
 [Tuque](modules/Tuque.md)<br/>
