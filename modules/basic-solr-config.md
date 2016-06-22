@@ -13,7 +13,7 @@ The components in basic-solr-config are **not** pre-installed. The default confi
 <a id="testing"></a>
 ## Testing ##
 
-[Tests](modules/tests/...) rely on (need to work out how to get these extra branches into the upstream repository) the [4.x-vagrant branch](...) of the basic-solr-config. See [below](#using-the-branches) for details on file placement.
+[Tests](./tests/basic-solr-config-test.md) rely on (need to work out how to get these extra branches into the upstream repository) the [4.x-vagrant branch](...) of the basic-solr-config. See [below](#using-the-branches) for details on file placement.
 
 
 <a id="using-the-branches"></a>
