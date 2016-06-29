@@ -52,20 +52,36 @@ Sign up form<br/>
 **Islandora assigns Roles to volunteers based on a number of factors:** [release manager, component manager, testers, documentors, auditors](http://islandora.ca/resources/contributors)
 
 [MKdocs](http://www.mkdocs.org)<br/>
-RDF: ontology
+RDF: ontology<br/>
 
-[Islandora Events](http://islandora.ca/events): Events shown in time zone: Atlantic Time
-[Islandora Calendar](https://calendar.google.com/calendar?src=96s6v709n719hapqtt9m8vj588):
+[Islandora Events](http://islandora.ca/events): Events shown in time zone: Atlantic Time<br/>
+[Islandora Calendar](https://calendar.google.com/calendar?src=96s6v709n719hapqtt9m8vj588)<br/>
 
 ##### Stack:
-```
-Drupal
-Fedora
-Solr :
-Gsearch : [./fedoragsearch/rest](http://localhost:8080/fedoragsearch/rest)
-Tuque
-  APIa :
-  APIm : Modify
 
-```
+Drupal: [missing](http://localhost:8080/#)<br/>
+Fedora: [missing](http://localhost:8080/#)<br/>
+Solr : [missing](http://localhost:8080/#)<br/>
+Gsearch : [./fedoragsearch/rest](http://localhost:8080/fedoragsearch/rest)<br/>
+Tuque: [missing](http://localhost:8080/#)<br/>
+  APIa : [missing](http://localhost:8080/#)<br/>
+  APIm : [missing](http://localhost:8080/#)<br/>
+
  <!-- toc -->
+
+#### To do / In Progress
+```
+How to create:
+  Audio Collection
+  Basic Image Collection
+  Book Collection
+  Citations
+  Compound Collection
+  Disk Image Collection
+  Entity Collection
+  Large Image Collection
+  Newspaper Collection
+  PDF Collection
+  Video Collection
+  Web ARChive Collection
+```
