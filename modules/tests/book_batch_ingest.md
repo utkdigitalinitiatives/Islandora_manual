@@ -86,20 +86,20 @@ Pages > Any Page > Manage > Datastreams<br/><br/>
 
 #### Passing Test Results:
 
-| ID	| LABEL	| TYPE	| MIME TYPE	| SIZE	| VERSIONS	| OPERATIONS | OPERATIONS | OPERATIONS | OPERATIONS |
-|--|--|--|--|--|--|--|--|--|--|--|
-| RELS-EXT	|Fedora Object to Object Relationship Metadata.	| Inline XML |	application/rdf+xml	| 757 B	| 2		|   | download |	|  |		
-| MODS	| MODS Record	| Inline XML	| application/xml	| 179 B	| 1	| replace	| download		| delete |	|
-| DC	| DC Record	| Inline XML	| application/xml	| 369 B	| 1	| replace	| download |	|  |		
-| OBJ	| OBJ Datastream	| Managed	| image/tiff	| 14.36 MiB	| 1	| replace	| download		| delete| 	|
-| TN	| Thumbnail	| Managed	| image/jpeg	| 17.36 KiB	| 1	| replace	| download	| |	delete	| regenerate|
-| JPG	| Medium sized JPEG	| Managed	| image/jpeg	| 110.51 KiB	| 1	| replace	|download		| delete	| regenerate|
-| JP2	| JPEG 2000	| Managed	| image/jp2	| 919.16 KiB	| 1	| replace	| download	| 	| delete	| regenerate| 
-| RELS-INT	| Fedora Relationship Metadata.	| Inline XML	| application/rdf+xml	| 353 B	| 2		|  | download	| delete |  |
-| PDF	| PDF	| Managed	| application/pdf	| 11.35 MiB	| 1	| replace	| download	| delete	| regenerate|
-| **OCR**	| **OCR**	| **Managed**	| **text/plain**	| **9.86 KiB**	| **1**	| **replace**	| **download**	| **delete**	| **regenerate**| 
-| **HOCR**	| **HOCR**	| **Managed**	| **text/html**	| **291.33 KiB**	| **1**	| **replace**	| **download**	|	**delete**	| **regenerate**|
-| TECHMD	| TECHMD	| Managed	| application/xml	| 6.64 KiB	| 1	| replace	|download	|	delete	| regenerate|
+| ID       | LABEL                                          | TYPE        | MIME TYPE           | SIZE           | VERSIONS | OPERATIONS  | OPERATIONS   | OPERATIONS | OPERATIONS     |
+|----------|------------------------------------------------|-------------|---------------------|----------------|----------|-------------|--------------|------------|----------------|
+| RELS-EXT | Fedora Object to Object Relationship Metadata. | Inline XML  | application/rdf+xml | 757 B          | 2        |             | download     |            |                |
+| MODS     | MODS Record                                    | Inline XML  | application/xml     | 179 B          | 1        | replace     | download     | delete     |                |
+| DC       | DC Record                                      | Inline XML  | application/xml     | 369 B          | 1        | replace     | download     |            |                |
+| OBJ      | OBJ Datastream                                 | Managed     | image/tiff          | 14.36 MiB      | 1        | replace     | download     | delete     |                |
+| TN       | Thumbnail                                      | Managed     | image/jpeg          | 17.36 KiB      | 1        | replace     | download     |            | delete         |
+| JPG      | Medium sized JPEG                              | Managed     | image/jpeg          | 110.51 KiB     | 1        | replace     | download     | delete     | regenerate     |
+| JP2      | JPEG 2000                                      | Managed     | image/jp2           | 919.16 KiB     | 1        | replace     | download     |            | delete         |
+| RELS-INT | Fedora Relationship Metadata.                  | Inline XML  | application/rdf+xml | 353 B          | 2        |             | download     | delete     |                |
+| PDF      | PDF                                            | Managed     | application/pdf     | 11.35 MiB      | 1        | replace     | download     | delete     | regenerate     |
+| **OCR**  | **OCR**                                        | **Managed** | **text/plain**      | **9.86 KiB**   | **1**    | **replace** | **download** | **delete** | **regenerate** |
+| **HOCR** | **HOCR**                                       | **Managed** | **text/html**       | **291.33 KiB** | **1**    | **replace** | **download** | **delete** | **regenerate** |
+| TECHMD   | TECHMD                                         | Managed     | application/xml     | 6.64 KiB       | 1        | replace     | download     | delete     | regenerate     |
 
 
 <br/><br/>
@@ -110,17 +110,17 @@ Using an outdated version of Islandora<br/>
 
 ***Failing Test Results:***
 
-| ID	| LABEL	| TYPE	| MIME TYPE	| SIZE	| VERSIONS	| OPERATIONS | OPERATIONS | OPERATIONS | OPERATIONS |
-|--|--|--|--|--|--|--|--|--|--|--|
-| RELS-EXT	|Fedora Object to Object Relationship Metadata.	| Inline XML |	application/rdf+xml	| 757 B	| 2		|   | download |	|  |		
-| MODS	| MODS Record	| Inline XML	| application/xml	| 179 B	| 1	| replace	| download		| delete |	|
-| DC	| DC Record	| Inline XML	| application/xml	| 369 B	| 1	| replace	| download |	|  |		
-| OBJ	| OBJ Datastream	| Managed	| image/tiff	| 14.36 MiB	| 1	| replace	| download		| delete| 	|
-| TN	| Thumbnail	| Managed	| image/jpeg	| 17.36 KiB	| 1	| replace	| download	| |	delete	| regenerate|
-| JPG	| Medium sized JPEG	| Managed	| image/jpeg	| 110.51 KiB	| 1	| replace	|download		| delete	| regenerate|
-| JP2	| JPEG 2000	| Managed	| image/jp2	| 919.16 KiB	| 1	| replace	| download	| 	| delete	| regenerate| 
-| RELS-INT	| Fedora Relationship Metadata.	| Inline XML	| application/rdf+xml	| 353 B	| 2		|  | download	| delete |  |
-| PDF	| PDF	| Managed	| application/pdf	| 11.35 MiB	| 1	| replace	| download	| delete	| regenerate|
+| ID       | LABEL                                          | TYPE       | MIME TYPE           | SIZE       | VERSIONS | OPERATIONS | OPERATIONS | OPERATIONS | OPERATIONS |
+|----------|------------------------------------------------|------------|---------------------|------------|----------|------------|------------|------------|------------|
+| RELS-EXT | Fedora Object to Object Relationship Metadata. | Inline XML | application/rdf+xml | 757 B      | 2        |            | download   |            |            |
+| MODS     | MODS Record                                    | Inline XML | application/xml     | 179 B      | 1        | replace    | download   | delete     |            |
+| DC       | DC Record                                      | Inline XML | application/xml     | 369 B      | 1        | replace    | download   |            |            |
+| OBJ      | OBJ Datastream                                 | Managed    | image/tiff          | 14.36 MiB  | 1        | replace    | download   | delete     |            |
+| TN       | Thumbnail                                      | Managed    | image/jpeg          | 17.36 KiB  | 1        | replace    | download   | delete     | regenerate |
+| JPG      | Medium sized JPEG                              | Managed    | image/jpeg          | 110.51 KiB | 1        | replace    | download   | delete     | regenerate |
+| JP2      | JPEG 2000                                      | Managed    | image/jp2           | 919.16 KiB | 1        | replace    | download   | delete     | regenerate |
+| RELS-INT | Fedora Relationship Metadata.                  | Inline XML | application/rdf+xml | 353 B      | 2        |            | download   | delete     |            |
+| PDF      | PDF                                            | Managed    | application/pdf     | 11.35 MiB  | 1        | replace    | download   | delete     | regenerate |
 
 
 ### Where to find more information<br/>
