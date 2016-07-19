@@ -1,11 +1,11 @@
 {
     "plugins": [
       "-lunr",
-      "gitbook-plugin-toc-for-3",
+      "gitbook-plugin-toc-for-3"
     ],
     "pluginsConfig": {
       "lunr": {
             "maxIndexSize": 200000
-        },
-    },
+        }
+    }
 }
