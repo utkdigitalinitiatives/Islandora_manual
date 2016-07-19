@@ -14,9 +14,6 @@ Repos | Release Schedule | Community Channels | Community Roles | Calendars
 ## [Islandora Stack](basics/islandora_stack.md)
 Quick Stack Reference | Breakdown
 
-## [Islandora Basics](basics/README.md)
-Install | Typical Ingest Procedure
-
 <hr>
 #### To do list, In Progress
 ```

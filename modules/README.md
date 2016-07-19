@@ -1,10 +1,4 @@
---- 
-search: 
-   keywords: ['module', 'solution pack', 'modules'] 
-
----
-
-# Islandora Modules (most of these aren't written yet!) 
+# Islandora Modules (most of these aren't written yet!)
 
 [Islandora](modules/Islandora.md)<br/>
 [Tuque](modules/Tuque.md)<br/>
