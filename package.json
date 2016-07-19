@@ -1,0 +1,22 @@
+{
+  "name": "islandora_manual",
+  "version": "0.0.2",
+  "description": "A book on how to install, use, test and break Islandora.",
+  "main": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonRichards/Islandora_manual.git"
+  },
+  "keywords": [
+    "islandora",
+    "manual",
+    "archiving"
+  ],
+  "author": "University of Tennessee, Knoxville",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/utkdigitalinitiatives/Islandora_manual/issues"
+  },
+  "homepage": "https://github.com/utkdigitalinitiatives/Islandora_manual#readme",
+  "engine": "gitbook>=3.0.0"
+}
