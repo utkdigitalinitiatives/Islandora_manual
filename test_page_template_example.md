@@ -31,7 +31,7 @@ Administration >> Islandora >> Islandora Utility Modules >> Checksum
 * Save configuration
 
 **Ingest test files**
-[Ingest with GUI](ingest_procedures.md) & [batch](batch_ingest.md)
+[Ingest with GUI](ingest_procedures.md) & [batch](modules/test/batch_ingest.md)
 
 #### Drush:
 ```bash
@@ -69,7 +69,7 @@ test_date/
 ```
 
 **Ingest test files**
-[Ingest with GUI](ingest_procedures.md) & [batch](batch_ingest.md)
+[Ingest with GUI](ingest_procedures.md) & [batch](modules/test/batch_ingest.md)
 
 ___
 ### Where to find more information
