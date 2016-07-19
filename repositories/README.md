@@ -1,3 +1,3 @@
 # Configuration Repositories
 
-[Basic Solr Config](repositories/basic-solr-config.md)
+[Basic Solr Config](basic-solr-config.md)
