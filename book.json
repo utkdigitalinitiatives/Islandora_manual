@@ -1,7 +1,6 @@
 {
     "plugins": [
       "-lunr",
-      "gitbook-plugin-toc-for-3"
     ],
     "pluginsConfig": {
       "lunr": {
