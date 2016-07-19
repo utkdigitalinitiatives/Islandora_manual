@@ -1,12 +1,10 @@
 {
     "plugins": [
-        "-toc",
-        "structured-toc"
+      "-lunr"
     ],
     "pluginsConfig": {
-        "-toc": {
-            "addClass": true,
-            "className": "toc"
+      "lunr": {
+            "maxIndexSize": 200000
         }
     }
 }
