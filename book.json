@@ -1,12 +1,11 @@
 {
     "plugins": [
-        "-toc",
-        "structured-toc"
+      "-lunr",
+      "gitbook-plugin-toc-for-3",
     ],
     "pluginsConfig": {
-        "-toc": {
-            "addClass": true,
-            "className": "toc"
-        }
-    }
+      "lunr": {
+            "maxIndexSize": 200000
+        },
+    },
 }
