@@ -1,6 +1,6 @@
 {
     "plugins": [
-      "-lunr",
+      "-lunr"
     ],
     "pluginsConfig": {
       "lunr": {
