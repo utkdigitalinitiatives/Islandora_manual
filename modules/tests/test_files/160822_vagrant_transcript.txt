@@ -1,0 +1,157 @@
+Script started on Mon 22 Aug 2016 07:46:39 PM UTC
+root@islandora:~# date
+Mon Aug 22 19:46:42 UTC 2016
+root@islandora:~# 
+root@islandora:~# cd /var/www/drupal
+root@islandora:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf  --type=directory --target=/home/vagrant/trace_objects_ 
+drush  --parent=islandora:Aetd    ibsp
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+SetId: 4                                                                                                                                                          [ok]
+Command dispatch complete                                                                                                                                     [notice]
+root@islandora:/var/www/drupal#  drush islandora_batch_ingest -v   --user=admin  --uri=http://localhost
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Ingested Aetd:1006.                                                                                                                                               [ok]
+Ingested Aetd:1007.                                                                                                                                               [ok]
+Ingested Aetd:1008.                                                                                                                                               [ok]
+Ingested Aetd:1009.                                                                                                                                               [ok]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Aug 22, 2016 7:51:33 PM edu.harvard.hul.ois.jhove.JhoveBase init
+SEVERE: Testing SEVERE level
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1006.OBJ.TN.jpg was not deleted, because it does not exist.                                                                [notice]
+WD file: The file temporary://Aetd-1006.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1006.OBJ.PREVIEW.jpg was not deleted, because it does not exist.                                                           [notice]
+WD file: The file temporary://Aetd-1006.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Aug 22, 2016 7:51:42 PM edu.harvard.hul.ois.jhove.JhoveBase init
+SEVERE: Testing SEVERE level
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1007.OBJ.TN.jpg was not deleted, because it does not exist.                                                                [notice]
+WD file: The file temporary://Aetd-1007.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1007.OBJ.PREVIEW.jpg was not deleted, because it does not exist.                                                           [notice]
+WD file: The file temporary://Aetd-1007.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Aug 22, 2016 7:51:50 PM edu.harvard.hul.ois.jhove.JhoveBase init
+SEVERE: Testing SEVERE level
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1008.OBJ.TN.jpg was not deleted, because it does not exist.                                                                [notice]
+WD file: The file temporary://Aetd-1008.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1008.OBJ.PREVIEW.jpg was not deleted, because it does not exist.                                                           [notice]
+WD file: The file temporary://Aetd-1008.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Aug 22, 2016 7:51:59 PM edu.harvard.hul.ois.jhove.JhoveBase init
+SEVERE: Testing SEVERE level
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1009.OBJ.TN.jpg was not deleted, because it does not exist.                                                                [notice]
+WD file: The file temporary://Aetd-1009.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+WD file: The file temporary://Aetd-1009.OBJ.PREVIEW.jpg was not deleted, because it does not exist.                                                           [notice]
+WD file: The file temporary://Aetd-1009.OBJ.pdf was not deleted, because it does not exist.                                                                   [notice]
+Command dispatch complete                                                                                                                                     [notice]
+/usr/bin/php  -d magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off /opt/drush-6.3/drush.php --php=/usr/bin/php --php-options=' -d   [notice]
+magic_quotes_gpc=Off -d magic_quotes_runtime=Off -d magic_quotes_sybase=Off'  --backend=2 --verbose --user=admin --root=/var/www/drupal
+--uri=http://localhost  batch-process 13 13 -u 1 2>&1
+Initialized Drupal 7.44 root directory at /var/www/drupal                                                                                                     [notice]
+Initialized Drupal site localhost at sites/default                                                                                                            [notice]
+Processing complete; review queue for some additional information.                                                                                            [status]
+Command dispatch complete                                                                                                                                     [notice]
+Command dispatch complete                                                                                                                                     [notice]
+root@islandora:/var/www/drupal# echo 'Ingestion is complete'
+Ingestion is complete
+root@islandora:/var/www/drupal# 
+root@islandora:/var/www/drupal# exit
+Script done on Mon 22 Aug 2016 07:56:23 PM UTC
