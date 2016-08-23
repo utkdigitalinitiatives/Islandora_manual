@@ -3,7 +3,7 @@
 
 
 ### How to:
-[Test a News Paper Batch Ingest](/modules/tests/news_paper_batch_ingest.md)
+[Test a Newspaper Batch Ingest](/modules/tests/newspaper_batch_ingest.md)
 
 
 ## [Islandora Wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora+Newspaper+Batch)
