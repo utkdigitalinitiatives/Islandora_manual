@@ -22,7 +22,7 @@
 	1.  Use the GUI create a new collection. (Add collection item to top-level.)
 	2.  If you make this new collection under "top-level", the parent collection is "islandora".
 	3.  Name the pid for your collection "islandora:ETD"
-	4.  The child name space will be "ETD"
+	4.  The child namespace will be "ETD"
 	5.  The content model for this collection should be islandora:sp_pdf
 	6.  The collection name can be "ETD Collection".  This does not affect the drush commands.
 
@@ -42,7 +42,7 @@
 		- If your drush batch ingest is having mysterious problems, but the GUI works,
 		  this may help  you investigate the problem.
 		- Just for fun look at the fedora pids that you created (url courtesy of Bridger): 
-		- http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true
+		- [http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true]
 
 ####Drush Batch Ingest Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked and uploaded to your localhost vagrant.
@@ -53,7 +53,7 @@
 ####Assuming file paths, directory names, Collection pids, from above, these are the 4 commands.
   	1. vagrant@trace:~$ sudo -i
 	2. root@trace:~# cd /var/www/drupal
-	3. root@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf --type=directory --target=/home/vagrant/etds --parent=islandora:ETD ibsp
+	3. root@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf --type=directory --target=/home/vagrant/etds --parent=islandora:ETD --namespace=ETD ibsp
 	4. root@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=admin --uri=http://localhost
 
 ####About the 4 commands
@@ -65,8 +65,8 @@
 
 
 #### What are these tests?<br/>
- - Batch ingest 4 objects representing Master's theses with drush commands from a target directory.<br/>
- - Islandora GUI ingest of a single object representing a single Master's thesis.<br/>
+ - Using drush, perform a batch ingest 4 objects representing Master's theses.<br/>
+ - Using the Islandora GUI, ingest a single object representing a single Master's thesis.<br/>
 
 #### What is this going to test?<br/>
 PDF Collection objects for each of the 4 ETDs from  batch ingest<br/>
@@ -88,26 +88,18 @@ PDF Collection objects for each of the 4 ETDs from  batch ingest<br/>
 ```
 <br/>
 
-[http://localhost:8000/](http://localhost:8000/)<br/>
-
 ### Islandora Repository > ETD Collection > <br/>
-
-**With Alpha Channel | Without Alpha Channel | embedded**
-
-Pages > Any Page > Manage > Datastreams<br/><br/>
-
 
 #### Passing Test Results:
 
 I don't understand this part.
-
-
 
 <br/><br/>
 
 #### Make Test Fail<br/>
 
 Using an outdated version of Islandora<br/>
+Using wrong data.<br/>
 
 ***Failing Test Results:***
 
