@@ -12,7 +12,7 @@
 	8.  utk_gradthes-50xml
 
 ####Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
-        0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
+	0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
 	1.  Use the GUI create a new collection. (Add collection item to top-level.)
 	2.  If you make this new collection under "top-level", the parent collection is "islandora".
 	3.  Name the pid for your collection "islandora:ETD"
@@ -22,7 +22,7 @@
 
 ####This data may be used for two different kinds of tests.
 
-  -  Manual GUI Test
+  -  Manual Ingest with Islandora GUI Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked on your desktop.
   	- Select a pair of files (one object) to ingest with the GUI.
 	- For example:
@@ -35,22 +35,22 @@
 		- Confirm that your scholar repository is set up correctly.
 		- If your drush batch ingest is having mysterious problems, but the GUI works,
 		  this may help  you investigate the problem.
-		- Just for fun look at the fedora pids that you created: 
-		http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true
+		- Just for fun look at the fedora pids that you created (url courtesy of Bridger): 
+		- http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true
 
-  -  Drush batch ingest Test
+####Drush Batch Ingest Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked and uploaded to your localhost vagrant.
   	- Rename the directory scholar_thesis_pdf_dc to something less cumbersome, such as etds
 	- Move the etds directory to /home/vagrant/
 	- This becomes your target directory /home/vagrant/etds
 
-  - Assuming file paths, directory names, Collection pids, from above, there are 4 commands.
+####Assuming file paths, directory names, Collection pids, from above, there are 4 commands.
   	1. vagrant@trace:~$ sudo -i
 	2. root@trace:~# cd /var/www/drupal
 	3. root@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf --type=directory --target=/home/vagrant/etds --parent=islandora:ETD ibsp
 	4. root@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=admin --uri=http://localhost
 
-  - About the 4 commands
+####About the 4 commands
   	1. You have to be root.
 	2. You have to be in the drupal home directory to use drush.
 	3. This command may look wrapped, but it has to be typed on one continuous line.
