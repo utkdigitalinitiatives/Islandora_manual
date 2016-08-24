@@ -14,6 +14,7 @@
 ####Where is this data?
 	- The filepath to download is:
 	- https://raw.githubusercontent.com/utkdigitalinitiatives/Islandora_manual/master/modules/tests/test_files/scholar_thesis_pdf_dc.zip
+	- Paste this url in a browser window and it should cause a download popup to appear.
 
 
 ####This data may be used to test using the Islandora GUI for single item ingest and to test using drush for batch ingest of multiple items.  Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
@@ -27,7 +28,7 @@
 
 ####Test Descriptions.
 
-  -  Manual Ingest with Islandora GUI Test
+####Manual Ingest with Islandora GUI Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked on your desktop.
   	- Select a pair of files (one object) to ingest with the GUI.
 	- For example:
@@ -49,7 +50,7 @@
 	- Move the etds directory to /home/vagrant/
 	- This becomes your target directory /home/vagrant/etds
 
-####Assuming file paths, directory names, Collection pids, from above, there are 4 commands.
+####Assuming file paths, directory names, Collection pids, from above, these are the 4 commands.
   	1. vagrant@trace:~$ sudo -i
 	2. root@trace:~# cd /var/www/drupal
 	3. root@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf --type=directory --target=/home/vagrant/etds --parent=islandora:ETD ibsp
@@ -63,11 +64,12 @@
 
 
 
-#### What is this test?<br/>
-Batch ingest 4 pdfs representing Master's theses with drush commands from a target directory.<br/>
+#### What are these tests?<br/>
+ - Batch ingest 4 objects representing Master's theses with drush commands from a target directory.<br/>
+ - Islandora GUI ingest of a single object representing a single Master's thesis.<br/>
 
 #### What is this going to test?<br/>
-PDF Collection items for each of the 4 ETDs from  batch ingest<br/>
+PDF Collection objects for each of the 4 ETDs from  batch ingest<br/>
 
 #### Future Test: Searching for subject terms and personal names in this collection.<br/>
 
