@@ -11,7 +11,12 @@
 	7.  utk_gradthes-5030.pdf
 	8.  utk_gradthes-50xml
 
-####Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
+####Where is this data?
+	- The filepath to download is:
+	- https://raw.githubusercontent.com/utkdigitalinitiatives/Islandora_manual/master/modules/tests/test_files/scholar_thesis_pdf_dc.zip
+
+
+####This data may be used to test using the Islandora GUI for single item ingest and to test using drush for batch ingest of multiple items.  Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
 	0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
 	1.  Use the GUI create a new collection. (Add collection item to top-level.)
 	2.  If you make this new collection under "top-level", the parent collection is "islandora".
@@ -20,7 +25,7 @@
 	5.  The content model for this collection should be islandora:sp_pdf
 	6.  The collection name can be "ETD Collection".  This does not affect the drush commands.
 
-####This data may be used for two different kinds of tests.
+####Test Descriptions.
 
   -  Manual Ingest with Islandora GUI Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked on your desktop.
