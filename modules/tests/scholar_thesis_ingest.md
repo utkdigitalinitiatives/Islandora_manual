@@ -1,9 +1,7 @@
 # Scholar Thesis Ingest Data
 
-####What is this data? scholar_thesis_pdf_dc.zip
-Unpack the zip-file to see a directory containing 8 files.
-	<code>
-	0. scholar_thesis_pdf_dc/
+####What is this data? scholar_thesis_pdf_dc.zip Unpack the zip-file to see a directory containing 8 files.  
+	0.  scholar_thesis_pdf_dc/
 	1.  utk_gradthes-1202.pdf
 	2.  utk_gradthes-1202.xml
 	3.  utk_gradthes-3142.pdf
@@ -12,7 +10,6 @@ Unpack the zip-file to see a directory containing 8 files.
 	6.  utk_gradthes-36xml
 	7.  utk_gradthes-5030.pdf
 	8.  utk_gradthes-50xml
-	</code>
 
 ####Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
         0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
