@@ -3,7 +3,7 @@
 [Islandora](Islandora.md)<br/>
 [Tuque](Tuque.md)<br/>
 [Solution Pack Audio](Solution_Pack_Audio.md)<br/>
-[Solution Pack Basic Image](Solution_Pack_Basic_Image.md)<br/>
+[Solution Pack Basic Image](Solution_Pack_Basic Image.md)<br/>
 [Solution Pack Book](Solution_Pack_Book.md)<br/>
 [Solution Pack Collection](Solution_Pack_Collection.md)<br/>
 [Solution Pack Compound](Solution_Pack_Compound.md)<br/>
@@ -31,23 +31,23 @@
 [Islandora OCR](Islandora_OCR.md)<br/>
 [Islandora Openseadragon](Islandora_Openseadragon.md)<br/>
 [Islandora Pathauto](Islandora_Pathauto.md)<br/>
-[Islandora Paged Content](Islandora_Paged_Content.md)<br/>
+[Islandora Paged Content](Islandora_Paged Content.md)<br/>
 [Islandora PDF.js](Islandora_PDF.js.md)<br/>
 [Islandora PREMIS](Islandora_PREMIS.md)<br/>
 [Islandora Populator](Islandora_Populator.md)<br/>
-[Islandora Simple Workflow](Islandora_Simple_Workflow.md)<br/>
-[Islandora Usage Stats](Islandora_Usage_Stats.md)<br/>
+[Islandora Simple Workflow](Islandora_Simple Workflow.md)<br/>
+[Islandora Usage Stats](Islandora_Usage Stats.md)<br/>
 [Islandora Video.js](Islandora_Video.js.md)<br/>
-[Islandora XACML Editor](Islandora_XACML_Editor.md)<br/>
-[Islandora XML Sitemap](Islandora_XML_Sitemap.md)<br/>
-[Islandora XML Forms](Islandora_XML_Forms.md)<br/>
+[Islandora XACML Editor](Islandora_XACML Editor.md)<br/>
+[Islandora XML Sitemap](Islandora_XML Sitemap.md)<br/>
+[Islandora XML Forms](Islandora_XML Forms.md)<br/>
 [Islandora XML Form Field Panel](Islandora_XML_Form_Field_Panel.md)<br/>
 [Islandora Solr Facet Pages](Islandora_Solr_Facet_Pages.md)<br/>
 [Islandora Solr Metadata](Islandora_Solr_Metadata.md)<br/>
 [Islandora Solr Search](Islandora_Solr_Search.md)<br/>
 [Islandora Solr Views](Islandora_Solr_Views.md)<br/>
-[PHP Lib](PHP_Lib.md)<br/>
-[Objective Forms](Objective_Forms.md)<br/>
+[PHP Lib](PHP Lib.md)<br/>
+[Objective Forms](Objective Forms.md)<br/>
 [Islandora Scholar](Islandora_Scholar.md)<br/>
 [Islandora Ontology](Islandora_Ontology.md)<br/>
 [rels-ext](rels-ext.md)<br/>
