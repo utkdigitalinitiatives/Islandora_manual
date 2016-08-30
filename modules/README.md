@@ -27,8 +27,9 @@
 [Islandora JWPlayer](Islandora_JWPlayer.md)<br/>
 [Islandora MARCXML](Islandora_MARCXML.md)<br/>
 [Islandora Newspaper Batch](Islandora_Newspaper_Batch.md)<br/>
-[Islandora OAI](Islandora_OAI.md)<br/>
+[Islandora OAI](Islandora_oai.md)<br/>
 [Islandora OCR](Islandora_OCR.md)<br/>
+[Islandora Ontology](Islandora_Ontology.md)<br/>
 [Islandora Openseadragon](Islandora_Openseadragon.md)<br/>
 [Islandora Pathauto](Islandora_Pathauto.md)<br/>
 [Islandora Paged Content](Islandora_Paged_Content.md)<br/>
@@ -36,6 +37,7 @@
 [Islandora PREMIS](Islandora_PREMIS.md)<br/>
 [Islandora Populator](Islandora_Populator.md)<br/>
 [Islandora Simple Workflow](Islandora_Simple_Workflow.md)<br/>
+[Islandora Scholar](Islandora_Scholar.md)<br/>
 [Islandora Usage Stats](Islandora_Usage_Stats.md)<br/>
 [Islandora Video.js](Islandora_Video.js.md)<br/>
 [Islandora XACML Editor](Islandora_XACML_Editor.md)<br/>
