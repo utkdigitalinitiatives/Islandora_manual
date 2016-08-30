@@ -1,4 +1,5 @@
-# Audio Solution Pack
+# [Audio Solution Pack Repo](https://github.com/Islandora/islandora_solution_pack_audio)
+![icon](folder.png)
 
 [Link to Islandora's Solution Pack](https://github.com/Islandora/islandora_solution_pack_audio)
 

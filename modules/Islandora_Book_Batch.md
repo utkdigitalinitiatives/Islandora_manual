@@ -1,4 +1,5 @@
-# Islandora Book Batch
+# [Islandora Book Batch Repo](https://github.com/Islandora/islandora_book_batch)
+![icon](folder.png)
 
 This module implements a batch framework, as well as a basic ZIP/directory ingester.
 

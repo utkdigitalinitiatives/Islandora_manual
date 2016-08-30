@@ -1,4 +1,6 @@
-# Islandora OAI
+# [Islandora OAI Repo](https://github.com/Islandora/islandora_oai)
+![icon](folder.png)
+
 
   [Repo](https://github.com/Islandora/islandora_oai)<br/>
   [How to Contribute](https://github.com/Islandora/islandora_oai/blob/7.x/CONTRIBUTING.md)<br/>

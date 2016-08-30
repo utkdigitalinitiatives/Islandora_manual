@@ -1,4 +1,5 @@
-# Islandora OCR
+# [Islandora OCR](https://github.com/Islandora/islandora_ocr)
+![icon](folder.png)
 
 
 
