@@ -13,18 +13,19 @@ OCR/HOCR is created for all images/pages during batch ingest<br/>
 
 #### Files needed for testing<br/>
 ```terminal
-./This repo/
+Islandora_Manual/
 ├── modules
 │   └── tests
 │       └── test_files
-│           └── with-alpha-channel-book.zip
+│           ├── book-batch-with-alpha-channel-with-book-DC.zip
+│           ├── book-batch-with-embedded-datastreams-with-page-DC.zip
+│           └── book-batch-with-nonalpha-channel-with-page-DC.zip
 ```
 <br/>
 ***Optional to test directory:***<br/>
  Unzip into the root folder of [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)
 ```terminal
-./with-alpha-channel-book/
-├── alpha
+├── book-batch-with-alpha-channel-with-book-DC/
 │   ├── 1
 │   │   └── OBJ.tif
 │   ├── 2
@@ -34,7 +35,7 @@ OCR/HOCR is created for all images/pages during batch ingest<br/>
 │   ├── 4
 │   │   └── OBJ.tif
 │   └── DC.xml
-├── embedded
+├── book-batch-with-embedded-datastreams-with-page-DC/
 │   ├── 1
 │   │   ├── DC.xml
 │   │   └── OBJ.tif
@@ -43,8 +44,8 @@ OCR/HOCR is created for all images/pages during batch ingest<br/>
 │       ├── HOCR.shtml
 │       ├── OBJ.tif
 │       ├── OCR.asc
-│       └── Thumbnail.jpg
-└── nonalpha
+│       └── TN.jpg
+└── book-batch-with-nonalpha-channel-with-page-DC/
     ├── 1
     │   └── OBJ.tif
     ├── 2
@@ -66,12 +67,12 @@ $ cd /var/www/drupal/
 ```
 *For Directory*
 ```terminal
-$ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=directory --target=/vagrant/with-alpha-channel-book/
+$ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=directory --target=/vagrant/book-batch-with-nonalpha-channel-with-page-DC/
 $ drush -v -u 1 --uri=localhost islandora_batch_ingest
 ```
 *For Zip*
 ```terminal
-$ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=zip --target=/vagrant/with-alpha-channel-book.zip
+$ drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=book --type=zip --target=/vagrant/book-batch-with-nonalpha-channel-with-page-DC.zip
 $ drush -v -u 1 --uri=localhost islandora_batch_ingest
 ```
 
