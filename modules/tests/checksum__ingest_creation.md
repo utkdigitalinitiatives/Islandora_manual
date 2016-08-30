@@ -60,7 +60,7 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 | messageDigest | b3cf86c63c6554735a1588d4dbcc297b75c9eff9 |
 | ... | ... |
 | objectidentifierValue | OBJ.0 |
-| messageDigestAlgorithm | SHA-256 
+| messageDigestAlgorithm | SHA-256
 | messageDigest | 75821241902ef18291b67728b2f7fc65ce52d52a |
 | ... | ... |
 
@@ -82,7 +82,7 @@ Islandora Repository >> Basic Image Collection >> Manage >> PREMIS
 ```
 
 **Ingest test files**
-[Ingest with GUI](ingest_procedures.md) & [batch](modules/test/batch_ingest.md)
+[Ingest with GUI](/basics/ingest_procedures.md) & [batch](modules/test/batch_ingest.md)
 
 ___
 ### Where to find more information
