@@ -60,30 +60,28 @@
 
   -  Drush batch ingest Test
   	- The scholar_thesis_pdf_dc.zip file should be unpacked and uploaded to your localhost vagrant.
-  	- Rename the directory scholar_thesis_pdf_dc to something less cumbersome, such as etds
-	- Move the etds directory to /home/vagrant/
-	- This becomes your target directory /home/vagrant/etds
+	- Move the scholar_thesis_pdf_dc directory to /home/vagrant/
+	- This becomes your target directory /home/vagrant/scholar_thesis_pdf_dc
 
 <<<<<<< HEAD
-####Assuming file paths, directory names, Collection pids, from above, these are the 4 commands.
+####Assuming file paths, directory names, Collection pids, from above, these are the 3 commands.
 =======
-  - Assuming file paths, directory names, Collection pids, from above, there are 4 commands.
+  - Assuming file paths, directory names, Collection pids, from above, there are 3 commands.
 >>>>>>> parent of b1fc0c3... Revise scholar_thesis_ingest.md for readability.
-  	1. vagrant@trace:~$ sudo -i
-	2. root@trace:~# cd /var/www/drupal
-	3. root@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf --type=directory --target=/home/vagrant/etds --parent=islandora:ETD --namespace=ETD ibsp
-	4. root@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=admin --uri=http://localhost
+	1. vagrant@trace:~# cd /var/www/drupal
+	2. vagrant@trace:/var/www/drupal# drush -v --user=vagrant --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:ETD --namespace=ETD ibsp
+	3. vagrant@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=vagrant --uri=http://localhost
 
-  - About the 4 commands
-  	1. You have to be root.
+  - About the 3 commands
+  	1. You have to be user vagrant.
 	2. You have to be in the drupal home directory to use drush.
-	3. This command may look wrapped, but it has to be typed on one continuous line.
+	3. The drush commands may look wrapped, but it has to be typed on one continuous line.
 	4. Another command that must be typed on one continuous line.
 
 
 
 #### What are these tests?<br/>
- - Using drush, perform a batch ingest 4 objects representing Master's theses.<br/>
+ - Using drush, perform a batch ingest 4 objects. Each object represents a Master's theses.<br/>
  - Using the Islandora GUI, ingest a single object representing a single Master's thesis.<br/>
 
 #### What is this going to test?<br/>
