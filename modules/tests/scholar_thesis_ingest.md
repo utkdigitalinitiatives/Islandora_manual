@@ -11,83 +11,64 @@
 	7.  utk_gradthes-5030.pdf
 	8.  utk_gradthes-50xml
 
-<<<<<<< HEAD
 ####Where is this data?
 	- The filepath to download is:
 	- https://raw.githubusercontent.com/utkdigitalinitiatives/Islandora_manual/master/modules/tests/test_files/scholar_thesis_pdf_dc.zip
 	- Paste this url in a browser window and it should cause a download popup to appear.
+	- Download to your favorite directory.
+	- Upload to /home/vagrant
+	- Unpack the zip file.  
+	- The ingest target directory should be /home/vagrant/scholar_thesis_pdf_dc
 
 
-####This data may be used to test using the Islandora GUI for single item ingest and to test using drush for batch ingest of multiple items.  Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
-	0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
-=======
-####Both tests assume that there is a collection home waiting to receive new data of type pdf-dc.
-        0.  These directions match the drush commands that will be presented lower down.  Feel free to change anything, but then remember to change the drush commands.
->>>>>>> parent of b1fc0c3... Revise scholar_thesis_ingest.md for readability.
-	1.  Use the GUI create a new collection. (Add collection item to top-level.)
-	2.  If you make this new collection under "top-level", the parent collection is "islandora".
-	3.  Name the pid for your collection "islandora:ETD"
-	4.  The child namespace will be "ETD"
-	5.  The content model for this collection should be islandora:sp_pdf
-	6.  The collection name can be "ETD Collection".  This does not affect the drush commands.
+####Where will this data be ingested?
+	1.  The built in collection is "Graduate Theses".
+	2.  The pid is islandora:gradthes.
+	3.  The content models are:  islandora:sp_pdf, ir:thesisCModel.
 
-####Test Descriptions.
 
-<<<<<<< HEAD
-####Manual Ingest with Islandora GUI Test
-=======
-  -  Manual GUI Test
->>>>>>> parent of b1fc0c3... Revise scholar_thesis_ingest.md for readability.
-  	- The scholar_thesis_pdf_dc.zip file should be unpacked on your desktop.
-  	- Select a pair of files (one object) to ingest with the GUI.
-	- For example:
-		- utk_gradthes-1202.pdf
-		- utk_gradthes-1202.xml
-	- Use the data from the xml file to fill out the MODS ingest form in the GUI.
-	- Upload the pdf with the GUI. (Click on Browse and navigate to it.)
-	- View the web display and the datastream files.
-	- Purpose of the GUI Test:
-		- Confirm that your scholar repository is set up correctly.
-		- If your drush batch ingest is having mysterious problems, but the GUI works,
-		  this may help  you investigate the problem.
-<<<<<<< HEAD
-		- Just for fun look at the fedora pids that you created (url courtesy of Bridger): 
-		- [http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true]
-=======
-		- Just for fun look at the fedora pids that you created: 
-		http://localhost:8080/solr/collection1/select?q=*%3A*&sort=PID+asc&rows=1000000&fl=PID&wt=csv&indent=true
->>>>>>> parent of b1fc0c3... Revise scholar_thesis_ingest.md for readability.
+####Test Manual Ingest of single thesis with GUI.
+	1. Select the Graduate Thesis Collection.
+	2. Click the Manage Tab.
+	3. Click the Add and oject to this Collection link.
+	4, On the dropdown menu for Content Model, select Thesis Content Model, click Next.
+	5. The next page asks you to browse to a MARCXML file.  Do not browse, click Next.
+	6. You have a form to fill out.  Use the DC file for data.
+	7. Title is REQUIRED.  Copy it from the DC file.
+	8. Date is REQUIRED. Copy it from the DC file.
+	9. Fill out the form as much as you want, click Next.
+	10. Check the checkbox by the question: Would you like to include a PDF document for this citation?
+	11. This causes a form to appear.  Browse to the pdf.
+	12. Upload the pdf, fill out the rest of the form, click Next.
+	13. The thesis should be ingested to the collection.
 
-  -  Drush batch ingest Test
-  	- The scholar_thesis_pdf_dc.zip file should be unpacked and uploaded to your localhost vagrant.
-	- Move the scholar_thesis_pdf_dc directory to /home/vagrant/
-	- This becomes your target directory /home/vagrant/scholar_thesis_pdf_dc
 
-<<<<<<< HEAD
-####Assuming file paths, directory names, Collection pids, from above, these are the 3 commands.
-=======
-  - Assuming file paths, directory names, Collection pids, from above, there are 3 commands.
->>>>>>> parent of b1fc0c3... Revise scholar_thesis_ingest.md for readability.
+####Test Batch Ingest of Multiple Theses with drush.
+	1.  parent namespace: islandora:gradthes
+	2.  child namespace: gradthes
+	3.  target directory: /home/vagrant/scholar_thesis_pdf_dc
+	4.  content models: islandora:sp_pdf,ir:thesisCModel
+	5.  Run the test as user=vagrant.  (I have done it as user=root; there were problems.)	
+
+####The Three Commands 
 	1. vagrant@trace:~# cd /var/www/drupal
-	2. vagrant@trace:/var/www/drupal# drush -v --user=vagrant --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:ETD --namespace=ETD ibsp
+	2. vagrant@trace:/var/www/drupal# drush -v --user=vagrant --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:gradthes --namespace=gradthes ibsp
 	3. vagrant@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=vagrant --uri=http://localhost
 
   - About the 3 commands
-  	1. You have to be user vagrant.
-	2. You have to be in the drupal home directory to use drush.
-	3. The drush commands may look wrapped, but it has to be typed on one continuous line.
-	4. Another command that must be typed on one continuous line.
+	1. You have to be in the drupal home directory to use drush.
+  	2. You have to be user vagrant.
+	3. The drush commands may look as if they are typed on multiple lines, but it has to be typed on one continuous line.
 
 
-
-#### What are these tests?<br/>
- - Using drush, perform a batch ingest 4 objects. Each object represents a Master's theses.<br/>
- - Using the Islandora GUI, ingest a single object representing a single Master's thesis.<br/>
-
-#### What is this going to test?<br/>
-PDF Collection objects for each of the 4 ETDs from  batch ingest<br/>
-
-#### Future Test: Searching for subject terms and personal names in this collection.<br/>
+#### What is the next step?<br/>
+	1. Writing a script to perform the drush ingest of several theses automatically.
+	2. Instead of focusing on ingestion, the team should be considering other tests, such as:
+		-  Permission testing.
+		-  Seaching for terms.
+		-  Retrieving a thesis from the IR.
+		-  State testing (i.e. from embargo to publish)
+	
 
 #### Technology to use: *Drush*<br/>
 
