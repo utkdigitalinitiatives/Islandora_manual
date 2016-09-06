@@ -48,17 +48,18 @@
 	2.  child namespace: gradthes
 	3.  target directory: /home/vagrant/scholar_thesis_pdf_dc
 	4.  content models: islandora:sp_pdf,ir:thesisCModel
-	5.  Run the test as user=vagrant.  (I have done it as user=root; there were problems.)	
+	5.  Run the test as user=admin.  
+	6.  I have used the drush commands logged in as vagrant and logged in as root.  It did not matter which.
 
 ####The Three Commands 
 	1. vagrant@trace:~# cd /var/www/drupal
-	2. vagrant@trace:/var/www/drupal# drush -v --user=vagrant --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:gradthes --namespace=gradthes ibsp
-	3. vagrant@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=vagrant --uri=http://localhost
+	2. vagrant@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:gradthes --namespace=gradthes ibsp
+	3. vagrant@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=admin --uri=http://localhost
 
   - About the 3 commands
 	1. You have to be in the drupal home directory to use drush.
-  	2. You have to be user vagrant.
-	3. The drush commands may look as if they are typed on multiple lines, but it has to be typed on one continuous line.
+  	2. You have to run with  user=admin.
+	3. The drush commands may look as if they are typed on multiple lines, but they each have to be typed on one continuous line.
 
 
 #### What is the next step?<br/>
@@ -85,7 +86,7 @@
 ```
 <br/>
 
-### Islandora Repository > ETD Collection > <br/>
+### Islandora Repository > Graduate Thesis Collection > <br/>
 
 #### Passing Test Results:
 
