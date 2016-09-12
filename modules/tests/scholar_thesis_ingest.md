@@ -66,7 +66,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 	13. The thesis should be ingested to the collection.
 
 
-####Test Batch Ingest of Multiple Theses with drush.
+####Test Batch Ingest of one Thesis with drush.
 	1.  parent namespace: islandora:gradthes
 	2.  child namespace: gradthes
 	3.  target directory: /home/vagrant/170  (for example)
@@ -76,7 +76,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 
 ####The Three Commands 
 	1. vagrant@trace:~# cd /var/www/drupal
-	2. vagrant@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/scholar_thesis_pdf_dc  --parent=islandora:gradthes --namespace=gradthes ibsp
+	2. vagrant@trace:/var/www/drupal# drush -v --user=admin --uri=http://localhost --content_models=islandora:sp_pdf,ir:thesisCModel --type=directory --target=/home/vagrant/170  --parent=islandora:gradthes --namespace=gradthes ibsp
 	3. vagrant@trace:/var/www/drupal# drush islandora_batch_ingest -v --user=admin --uri=http://localhost
 
   - About the 3 commands
@@ -84,6 +84,10 @@ The set001 directory contains the simplest kind of objects in the repostiory:
   	2. You have to run with  user=admin.
 	3. The drush commands may look as if they are typed on multiple lines, but they each have to be typed on one continuous line.
 
+####Test Batch Ingest of one Thesis with drush.
+
+    - I will write this up when I figure out how to do it without renaming everything.
+    - Having all the names fulltext.pdf and metadata.xml in every directory is not the islandora way of doing things.
 
 #### What is the next step?<br/>
 	1. Writing a script to perform the drush ingest of several theses automatically.
