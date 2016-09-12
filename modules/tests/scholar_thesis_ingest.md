@@ -1,24 +1,40 @@
 # Scholar Thesis Ingest Data
 
-####What is this data? scholar_thesis_pdf_dc.zip Unpack the zip-file to see a directory containing 8 files.  
-	0.  scholar_thesis_pdf_dc/
-	1.  utk_gradthes-1202.pdf
-	2.  utk_gradthes-1202.xml
-	3.  utk_gradthes-3142.pdf
-	4.  utk_gradthes-31xml
-	5.  utk_gradthes-3673.pdf
-	6.  utk_gradthes-36xml
-	7.  utk_gradthes-5030.pdf
-	8.  utk_gradthes-50xml
+####What is this data? 
+These files were copied from the current trace repository at:
+
+DATA:/arc1/TRACE/TRACE/utk_gradthes/
+
+These are real files, not renamed or cleaned up. 
+
+The set001 directory contains the simplest kind of objects in the repostiory:
+  one xml file named: metadata.xml
+  one pdf file named: fulltext.pdf
+
 
 ####Where is this data?
+  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
+  170.zip -- unpacked size: 14928 K
+  1789.zip -- unpacked size: 10928 K
+  2771.zip -- unpacked size: 10232 K
+  3684 -- unpacked size: 6668 K
+
+  Each zip file contains one metadata.xml and one fulltext.pdf for one masters thesis.
+
+  A full descripton of these files is at:
+  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/about_zip_files.txt
+
+
+####Downloading this data.
 	- The filepath to download is:
-	- https://raw.githubusercontent.com/utkdigitalinitiatives/Islandora_manual/master/modules/tests/test_files/scholar_thesis_pdf_dc.zip
-	- Paste this url in a browser window and it should cause a download popup to appear.
-	- Download to your favorite directory.
+	- Download each zip file to your favorite directory.
 	- Upload to /home/vagrant
-	- Unpack the zip file.  
-	- The ingest target directory should be /home/vagrant/scholar_thesis_pdf_dc
+	- Unpack the zip file(s).  
+	- The ingest target directories should be 
+	    -- /home/vagrant/170
+	    -- /home/vagrant/1789
+	    -- /home/vagrant/2771
+	    -- /home/vagrant/d684
 
 
 ####Where will this data be ingested?
@@ -46,7 +62,7 @@
 ####Test Batch Ingest of Multiple Theses with drush.
 	1.  parent namespace: islandora:gradthes
 	2.  child namespace: gradthes
-	3.  target directory: /home/vagrant/scholar_thesis_pdf_dc
+	3.  target directory: /home/vagrant/170  (for example)
 	4.  content models: islandora:sp_pdf,ir:thesisCModel
 	5.  Run the test as user=admin.  
 	6.  I have used the drush commands logged in as vagrant and logged in as root.  It did not matter which.
@@ -76,15 +92,6 @@
 #### What is the needed test environment<br/>
 [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)<br/>
 
-#### Files needed for testing<br/>
-```terminal
-./This repo/
-├── modules
-│   └── tests
-│       └── test_files
-│           └── scholar_thesis_pdf_dc.zip
-```
-<br/>
 
 ### Islandora Repository > Graduate Thesis Collection > <br/>
 
