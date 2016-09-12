@@ -84,7 +84,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
   	2. You have to run with  user=admin.
 	3. The drush commands may look as if they are typed on multiple lines, but they each have to be typed on one continuous line.
 
-####Test Batch Ingest of one Thesis with drush.
+####Test Batch Ingest of Multiple Theses with drush.
 
     - I will write this up when I figure out how to do it without renaming everything.
     - Having all the names be fulltext.pdf and metadata.xml in every directory is not the islandora way of doing things.
