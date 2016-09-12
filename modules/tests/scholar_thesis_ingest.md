@@ -33,7 +33,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 
 
 ####Downloading this data.
-	- The filepath to download is:
+	- The filepath to download is: http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
 	- Download each zip file to your favorite directory.
 	- Upload to /home/vagrant
 	- Unpack the zip file(s).  
@@ -41,7 +41,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 	    -- /home/vagrant/170
 	    -- /home/vagrant/1789
 	    -- /home/vagrant/2771
-	    -- /home/vagrant/d684
+	    -- /home/vagrant/3684
 
 
 ####Where will this data be ingested in TRACE vagrant?
@@ -87,11 +87,12 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 ####Test Batch Ingest of one Thesis with drush.
 
     - I will write this up when I figure out how to do it without renaming everything.
-    - Having all the names fulltext.pdf and metadata.xml in every directory is not the islandora way of doing things.
+    - Having all the names be fulltext.pdf and metadata.xml in every directory is not the islandora way of doing things.
 
 #### What is the next step?<br/>
-	1. Writing a script to perform the drush ingest of several theses automatically.
-	2. Instead of focusing on ingestion, the team should be considering other tests, such as:
+
+	After ingestion:
+
 		-  Permission testing.
 		-  Seaching for terms.
 		-  Retrieving a thesis from the IR.
