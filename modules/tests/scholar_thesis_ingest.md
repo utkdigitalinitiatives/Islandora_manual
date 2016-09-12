@@ -8,6 +8,7 @@ DATA:/arc1/TRACE/TRACE/utk_gradthes/
 These are real files, not renamed or cleaned up. 
 
 The set001 directory contains the simplest kind of objects in the repostiory:
+
   one xml file named: metadata.xml
   one pdf file named: fulltext.pdf
 
@@ -19,7 +20,11 @@ The set001 directory contains the simplest kind of objects in the repostiory:
   2771.zip -- unpacked size: 10232 K
   3684 -- unpacked size: 6668 K
 
-  Each zip file contains one metadata.xml and one fulltext.pdf for one masters thesis.
+  Each zip file represents one master's thesis.
+  
+  Each zip file has one dirctory containing the files:
+    - metadata.xml 
+    - fulltext.pdf 
 
   A full descripton of these files is at:
   http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/about_zip_files.txt
@@ -37,7 +42,7 @@ The set001 directory contains the simplest kind of objects in the repostiory:
 	    -- /home/vagrant/d684
 
 
-####Where will this data be ingested?
+####Where will this data be ingested in TRACE vagrant?
 	1.  The built in collection is "Graduate Theses".
 	2.  The pid is islandora:gradthes.
 	3.  The content models are:  islandora:sp_pdf, ir:thesisCModel.
