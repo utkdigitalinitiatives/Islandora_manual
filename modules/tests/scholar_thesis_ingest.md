@@ -9,20 +9,22 @@ These are real files, not renamed or cleaned up.
 
 The set001 directory contains the simplest kind of objects in the repostiory:
 
-  one xml file named: metadata.xml
-  one pdf file named: fulltext.pdf
+  - one xml file named: metadata.xml
+  - one pdf file named: fulltext.pdf
 
 
 ####Where is this data?
-  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
-  170.zip -- unpacked size: 14928 K
-  1789.zip -- unpacked size: 10928 K
-  2771.zip -- unpacked size: 10232 K
-  3684 -- unpacked size: 6668 K
+
+  - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
+  - 170.zip -- unpacked size: 14928 K
+  - 1789.zip -- unpacked size: 10928 K
+  - 2771.zip -- unpacked size: 10232 K
+  - 3684.zip -- unpacked size: 6668 K
 
   Each zip file represents one master's thesis.
   
   Each zip file has one dirctory containing the files:
+
     - metadata.xml 
     - fulltext.pdf 
 
