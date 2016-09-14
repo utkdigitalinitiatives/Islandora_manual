@@ -11,29 +11,32 @@ The set001 directory contains zip files that hold the simplest kind of objects i
 
   - one xml file 
   - one pdf file 
+  - Each zip file represents one master's thesis.
 
 
 ####Where is this data?
 
   - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
   
-  - 170.zip -- unpacked size: 14928 K
-  - 1789.zip -- unpacked size: 10928 K
-  - 2771.zip -- unpacked size: 10232 K
-  - 3684.zip -- unpacked size: 6668 K
-  - These 4 zip files all contain directories holding files with original TRACE names:
-      - metadata.xml 
-      - fulltext.pdf 
+  - Unchanged Files
+    - 170.zip -- unpacked size: 14928 K
+    - 1789.zip -- unpacked size: 10928 K
+    - 2771.zip -- unpacked size: 10232 K
+    - 3684.zip -- unpacked size: 6668 K
+    - These 4 zip files all contain directories holding files with original TRACE names:
+        - metadata.xml 
+        - fulltext.pdf 
 
-  - alt_170.zip -- unpacked size: 14928 K
-  - alt_1789.zip -- unpacked size: 10928 K
-  - alt_2771.zip -- unpacked size: 10232 K
-  - alt_3684.zip -- unpacked size: 6668 K
-  - These 4 zip files all contain directories holding files that have been renamed to conventional Islandora names.  
-  - For details, see:
-  - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/index.htm
 
-  Each zip file represents one master's thesis.
+  - Renamed Files
+    - alt_170.zip -- unpacked size: 14928 K
+    - alt_1789.zip -- unpacked size: 10928 K
+    - alt_2771.zip -- unpacked size: 10232 K
+    - alt_3684.zip -- unpacked size: 6668 K
+    - These 4 zip files all contain directories holding files that have been renamed to conventional Islandora names.  
+    - For details, see:
+    - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/index.htm
+
   
 ####Downloading this data.
 	- The filepath to visit is: http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
