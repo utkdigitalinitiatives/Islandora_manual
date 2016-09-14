@@ -29,11 +29,11 @@ The set001 directory contains the simplest kind of objects in the repostiory:
     - fulltext.pdf 
 
   A full descripton of these files is at:
-  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/about_zip_files.txt
+  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/index.htm
 
 
 ####Downloading this data.
-	- The filepath to download is: http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
+	- The filepath to visit is: http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
 	- Download each zip file to your favorite directory.
 	- Upload to /home/vagrant
 	- Unpack the zip file(s).  
