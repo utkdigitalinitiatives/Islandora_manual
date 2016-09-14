@@ -7,31 +7,34 @@ DATA:/arc1/TRACE/TRACE/utk_gradthes/
 
 These are real files, not renamed or cleaned up. 
 
-The set001 directory contains the simplest kind of objects in the repostiory:
+The set001 directory contains zip files that hold the simplest kind of objects in the repostiory:
 
-  - one xml file named: metadata.xml
-  - one pdf file named: fulltext.pdf
+  - one xml file 
+  - one pdf file 
 
 
 ####Where is this data?
 
   - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
+  
   - 170.zip -- unpacked size: 14928 K
   - 1789.zip -- unpacked size: 10928 K
   - 2771.zip -- unpacked size: 10232 K
   - 3684.zip -- unpacked size: 6668 K
+  - These 4 zip files all contain directories holding files with original TRACE names:
+      - metadata.xml 
+      - fulltext.pdf 
+
+  - alt_170.zip -- unpacked size: 14928 K
+  - alt_1789.zip -- unpacked size: 10928 K
+  - alt_2771.zip -- unpacked size: 10232 K
+  - alt_3684.zip -- unpacked size: 6668 K
+  - These 4 zip files all contain directories holding files that have been renamed to conventional Islandora names.  
+  - For details, see:
+  - http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/index.htm
 
   Each zip file represents one master's thesis.
   
-  Each zip file has one dirctory containing the files:
-
-    - metadata.xml 
-    - fulltext.pdf 
-
-  A full descripton of these files is at:
-  http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/index.htm
-
-
 ####Downloading this data.
 	- The filepath to visit is: http://dlwork.lib.utk.edu/vboxes/trace_samples/set001/
 	- Download each zip file to your favorite directory.
