@@ -11,6 +11,13 @@ OCR/HOCR is created for all images/pages during batch ingest<br/>
 #### What is the needed test environment<br/>
 [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant/)<br/>
 
+Test Files:
+* [Test book batch with alpha channel and with book level DC Metadata ZIP](test_files/book-batch-with-alpha-channel-with-book-DC.zip)
+* [Test book batch with embedded datastreams with page level DC Metadata ZIP](test_files/book-batch-with-embedded-datastreams-with-page-DC.zip)
+* [Test book batch with nonalpha channel with page level DC Metadata ZIP](test_files/book-batch-with-nonalpha-channel-with-page-DC.zip)
+
+*Note: Any of these should work. They are specially designed to test program functionality and show the different datastream layout options available.*
+
 #### Files needed for testing<br/>
 ```terminal
 Islandora_Manual/
